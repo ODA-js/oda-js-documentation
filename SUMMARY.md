@@ -1,3 +1,5 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Project status](README.md)
+** [First Chapter](chapter1.md)
+
