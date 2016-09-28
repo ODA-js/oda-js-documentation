@@ -6,5 +6,5 @@
     * [Data layer](data-layer.md)
     * [UI](ui.md)
         * [Storybook](storybook.md)
-        * Editing the data
+        * [Editing the data](editing-the-data.md)
 
