@@ -1,27 +1,8 @@
 # System Architecture
 
-in this section we will see what is the architecture of the system we provide to Charidy.
+In this section we will describe main principales of the system architecture.
 
 
-
-
-
-
-
-
-### UI
-
-
-
-We've used beAdmin theme for bootstrap and building reusable component forthe appliation to provide true React UIX. We use `react-bootstrap` library.Every form reuse existing component-base to make the UI feel consistent withthe selected theme.
-
-
-
-#### Storybook
-
-
-
-We use storybook for designing the forms of an appilcation to make thedevelopment prosess as far as possible independent one aspect of developmentfrom another. Storybook provide us with ability to build and test formsconsistency with out connecting it to real data.
 
 
 
