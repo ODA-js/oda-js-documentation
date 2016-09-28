@@ -1,5 +1,5 @@
 # Summary
 
-* [Project status](README.md)
+* [Project status](status.md)
  * [First Chapter](architecture.md)
 
