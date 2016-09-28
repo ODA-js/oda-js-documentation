@@ -1,4 +1,4 @@
-### Microservice architecture
+# Microservice architecture
 
 We have next types of services:
 
@@ -14,6 +14,6 @@ We have next types of services:
 
 Each application can be deployed to different location to providehorizontal scalabillity.
 
-we've prepared configuration files for building javascript projects andstarter seed-projects to start building
+we've prepared configuration files for building javascript projects andstarter seed-projects to start building.
 
 
