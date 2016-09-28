@@ -8,4 +8,5 @@
         * [Storybook](storybook.md)
         * [Editing the data](editing-the-data.md)
         * [Translation & Localization](translation--localization.md)
+        * [Dictionary](dictionary.md)
 
