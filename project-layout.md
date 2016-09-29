@@ -22,7 +22,6 @@ package.json
 ```bash
 NODE_CONFIG_DIR=../config
 STATIC_ROOT=./public
-
 ```
 
 * `start.js` starter file for the service
