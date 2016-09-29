@@ -21,7 +21,7 @@ package.json
 * `start.js` starter file for the service
 * `package.json` npm project file that contains `<service name>` definition, description and external project dependency, as far as development dependency.
 
-````javascript
+````json
 { 
  "version": "0.1.0",
  "name": "api",
