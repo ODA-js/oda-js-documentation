@@ -8,7 +8,7 @@
 
 ##  Project initialization
 
-project repository is http://gitlab.pfrus.com/vedmalex/charidy-web-server
+project repository is 
 
 
 
