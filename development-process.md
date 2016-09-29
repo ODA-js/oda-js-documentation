@@ -6,6 +6,9 @@
 * `React` is the viewing engine
 * `babel.js` is teh transpiler for the javascript
 
+##  Project initialization
+
+
 
  
 
