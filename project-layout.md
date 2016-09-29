@@ -23,6 +23,13 @@ package.json
 
 ````javascript
 { 
- "version": "0.1.0", "name": "api", "description": "graffity GraphQL Server", "private": true, "scripts": { "start": "node start.js" }}
+ "version": "0.1.0",
+ "name": "api",
+ "description": "graffity GraphQL Server",
+ "private": true,
+ "scripts": { 
+    "start": "node start.js" 
+ }
+}
 
 ````
