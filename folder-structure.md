@@ -11,7 +11,17 @@ charidy-server/
     data/
     lib/
     static/
+    ...
 ```
+## Folder 
+
+* api - root folder for api
+* auth - root folder for authentication service
+* beAdmin - root for current admin project
+* config - root folder for configuration files
+* data - schema store for Relay data layer
+* lib - root folder for common functions for every projects.
+* statics - root for common static files. it is used by `webpack-dev-server` indevelopment and stores compiled client scripts.
 
 
 
