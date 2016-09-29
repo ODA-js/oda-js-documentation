@@ -12,5 +12,5 @@
 * [Development](development.md)
     * [Project layout](project-layout.md)
     * [Folder structure](folder-structure.md)
-* Development Environment
+* Development Process
 
