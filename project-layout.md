@@ -21,7 +21,8 @@ package.json
 * `start.js` starter file for the service
 * `package.json` npm project file that contains `<service name>` definition, description and external project dependency, as far as development dependency.
 
-````
-{ "version": "0.1.0", "name": "api", "description": "graffity GraphQL Server", "private": true, "scripts": { "start": "node start.js" }}
+````javascript
+{ 
+"version": "0.1.0", "name": "api", "description": "graffity GraphQL Server", "private": true, "scripts": { "start": "node start.js" }}
 
 ````
