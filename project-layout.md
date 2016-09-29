@@ -19,9 +19,13 @@ package.json
 * `/public/<service name>` - static files folder, it can be configured through `.env`-file.
 * `.env` is the config for environment variables that is be used in the project
 * `start.js` starter file for the service
+``` javascript
+require('dotenv').config({ silent: true });require('../common/babel/server.babel');require('./src');
+
+```
 * `package.json` npm project file that contains `<service name>` definition, description and external project dependency, as far as development dependency.
 
-````javascript
+```javascript
 { 
  "version": "0.1.0",
  "name": "api",
@@ -32,4 +36,4 @@ package.json
  }
 }
 
-````
+```
