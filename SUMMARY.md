@@ -9,8 +9,8 @@
         * [Editing the data](editing-the-data.md)
         * [Translation & Localization](translation--localization.md)
         * [Dictionary](dictionary.md)
-* [Development](development.md)
+* [Development Process](development-process.md)
     * [Project layout](project-layout.md)
     * [Folder structure](folder-structure.md)
-* Development Process
+
 
