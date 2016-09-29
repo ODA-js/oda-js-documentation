@@ -20,18 +20,20 @@ package.json
 * `.env` is the config for environment variables that is be used in the project
 
 ```bash
-NODE_CONFIG_DIR=../configSTATIC_ROOT=./public
+NODE_CONFIG_DIR=../config
+STATIC_ROOT=./public
 
 ```
 
 * `start.js` starter file for the service
 
-``` javascript
+```javascript
 require('dotenv').config({ silent: true });
 require('../common/babel/server.babel');
 require('./src');
 
 ```
+
 * `package.json` npm project file that contains `<service name>` definition, description and external project dependency, as far as development dependency.
 
 ```javascript
@@ -46,3 +48,4 @@ require('./src');
 }
 
 ```
+
