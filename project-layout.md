@@ -30,7 +30,6 @@ STATIC_ROOT=./public
 require('dotenv').config({ silent: true });
 require('../common/babel/server.babel');
 require('./src');
-
 ```
 
 * `package.json` npm project file that contains `<service name>` definition, description and external project dependency, as far as development dependency.
@@ -45,6 +44,7 @@ require('./src');
     "start": "node start.js" 
  }
 }
-
 ```
+
+
 
