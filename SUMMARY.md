@@ -13,4 +13,10 @@
   * [Folder structure](folder-structure.md)
   * [Project layout](project-layout.md)
   * [Run Project](run-project.md)
+  * [Create new form](create-new-form.md)
+    * [Create new route](create-new-form/create-new-route.md)
+    * [Create new react component](create-new-form/create-new-react-component.md)
+    * Create page
+    * Add queries
+    * Describe mutations
 
