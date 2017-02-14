@@ -16,7 +16,7 @@
   * [Create new form](create-new-form.md)
     * [Create new route](create-new-form/create-new-route.md)
     * [Create new react component](create-new-form/create-new-react-component.md)
-    * Create page
-    * Add queries
-    * Describe mutations
+    * [Create page](create-new-form/create-page.md)
+    * [Add queries](create-new-form/add-queries.md)
+    * [Describe mutations](create-new-form/describe-mutations.md)
 
