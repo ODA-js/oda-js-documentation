@@ -77,13 +77,13 @@ ___
 You can see examples of using form controls on the next title of this documentation (`"Simple form on React"`).
 
 ####**2. Pannels**
-Modal
-Modal zone
-Panel box
-Panel edit
-Panel grid
-Panel view 
-Panel widget
+**Modal**
+![](/assets/111.png)
+**Panel box**
+**Panel edit**
+**Panel grid**
+**Panel view **
+**Panel widget**
 
 ####**3. Other**
 
