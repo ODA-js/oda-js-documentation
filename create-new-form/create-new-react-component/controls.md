@@ -22,49 +22,61 @@ Use it:
 
 ### Existing controls: 
 
-**1. Form controls**
+####1. Form controls
+___
+**Checkbox**
 
-* Checkbox
+![](/assets/1.png)
+___
+**Multiple checkbox**
 
-![](/assets/screenshot-localhost 3000-2017-02-20-15-09-49.png)
-* Multiple checkbox
 ![](/assets/2.png)
+___
 
-* Dropdown simple
+**Dropdown simple**
+
 ![](/assets/3.png)
+___
 
+**Field description**
 
-* Field description
 ![](/assets/4.png)
+___
 
+**Field group edit**
 
-* Field group edit
 ![](/assets/5.png)
+___
 
 
-* Field group edit with key
+**Field group edit with key**
+
 ![](/assets/6.png)
+___
 
+**Field group text**
 
-* Field group text
 ![](/assets/7.png)
+___
 
+**Field static multiple**
 
-* Field static multiple
 ![](/assets/8.png)
+___
 
-
-* Simple select
+**Simple select**
 ![](/assets/9.png)
+___
 
+**Switch checkbox**
 
-* Switch checkbox
 ![](/assets/10.png)
 
+___
 
 You can see examples of using form controls on the next title of this documentation (`"Simple form on React"`).
 
-**2. Pannels**
+####**2. Pannels**
 Modal
 Modal zone
 Panel box
@@ -73,7 +85,7 @@ Panel grid
 Panel view 
 Panel widget
 
-**3. Other**
+####**3. Other**
 
 Content header
 Datatable
