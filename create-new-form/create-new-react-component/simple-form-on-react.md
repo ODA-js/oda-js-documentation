@@ -5,15 +5,6 @@ Typical React component looks like this:
 import React from 'react';
 
 import {
-  Button,
-  Col,
-  Form,
-  FormControl,
-  FormGroup,
-  Row,
-} from 'react-bootstrap';
-
-import {
   compose,
   withProps
 } from 'recompose';
@@ -212,3 +203,55 @@ export default compose(
 )(PageAchEdit);
 
 ```
+
+Let's look this sample form.
+
+Section `import` defines external components, functions, styles. 
+You must include React and Compose in every component. 
+Use `WithProps` function of recompose to configure of UI (labels, titles and other text) with localization.
+Use `import 'path/to/file_of_style.scss'` to add custom styles to component.
+
+It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible. 
+[](https://react-bootstrap.github.io/components.html "See the list of available components here.")
+Example: 
+
+`import {
+  Button,
+  Col,
+  Form,
+  FormControl,
+  FormGroup,
+  Row,
+} from 'react-bootstrap';
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
