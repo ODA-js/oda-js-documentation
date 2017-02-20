@@ -14,9 +14,9 @@
   * [Project layout](project-layout.md)
   * [Run Project](run-project.md)
   * [Create new form](create-new-form.md)
-    * [Create new route](create-new-form/create-new-route.md)
     * [Create new react component](create-new-form/create-new-react-component.md)
     * [Create page](create-new-form/create-page.md)
+    * [Create new route](create-new-form/create-new-route.md)
     * [Add queries](create-new-form/add-queries.md)
     * [Describe mutations](create-new-form/describe-mutations.md)
 
