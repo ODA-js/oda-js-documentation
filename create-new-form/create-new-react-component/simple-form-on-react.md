@@ -15,10 +15,7 @@ import {
 
 import {
   compose,
-  mapProps,
-  withHandlers,
-  withProps,
-  withState,
+  withProps
 } from 'recompose';
 
 import PanelEdit from '../../controls/panel_edit';
