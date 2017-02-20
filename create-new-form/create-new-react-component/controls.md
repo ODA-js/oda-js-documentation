@@ -8,14 +8,12 @@ Include the controls in the parent component with:
 `import ../../controls/name_of_control`
 
 Use it: 
-`
-Component_name
+&#060;Component_name
     prop1='string'
     prop2={variable}
     ...
     propN=Number
-/
-`     
+&#062;     
 
 ### Existing controls: 
 
