@@ -22,7 +22,7 @@ import FieldStaticMultiple from '../../controls/field_static_many';
 import SimpleSelect from '../../controls/select_simple';
 import SwitchCheckbox from '../../controls/switch_checkbox';
 
-const PageAchEdit = ({ data, ui, actions, locale }) => {
+const SampleFormEdit = ({ data, ui, actions, locale }) => {
 
   return(
     <PanelEdit>
@@ -200,31 +200,19 @@ export default compose(
       }
     },
   })),
-)(PageAchEdit);
+)(SampleFormEdit);
 
 ```
 
-Let's look this sample form.
+Let's look this form.
 
-Section `import` defines external components, functions, styles. 
+**Section 'import'** defines external components, functions, styles. 
 You must include React and Compose in every component. 
 Use `WithProps` function of recompose to configure of UI (labels, titles and other text) with localization.
-Use `import 'path/to/file_of_style.scss'` to add custom styles to component.
+Use `import 'path/to/file_of_style.scss'` to add custom styles to the component.
 
-It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible. 
-[](https://react-bootstrap.github.io/components.html "See the list of available components here.")
-Example: 
-
-`import {
-  Button,
-  Col,
-  Form,
-  FormControl,
-  FormGroup,
-  Row,
-} from 'react-bootstrap';
-`
-
+**Note:** It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible. 
+[](https://react-bootstrap.github.io/components.html "See the list of available components and examples of using here.")
 
 
 
