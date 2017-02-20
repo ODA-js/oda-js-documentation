@@ -8,16 +8,22 @@ Include the controls in the parent component with:
 `import ../../controls/name_of_control`
 
 Use it: 
-&#060;Component_name
+
+```
+<Component_name
     prop1='string'
     prop2={variable}
     ...
     propN=Number
-&#062;     
+/>
+
+```
+
 
 ### Existing controls: 
 
 **1. Form controls**
+
 Checkbox
 Multiple checkbox
 Dropdown simple
