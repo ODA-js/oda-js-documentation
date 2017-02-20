@@ -17,6 +17,7 @@
     * [Create new react component](create-new-form/create-new-react-component.md)
       * [Controls](create-new-form/create-new-react-component/controls.md)
       * [Simple form on React](create-new-form/create-new-react-component/simple-form-on-react.md)
+      * [Custom styles](create-new-form/create-new-react-component/custom-styles.md)
     * [Create page](create-new-form/create-page.md)
     * [Create new route](create-new-form/create-new-route.md)
     * [Add queries](create-new-form/add-queries.md)

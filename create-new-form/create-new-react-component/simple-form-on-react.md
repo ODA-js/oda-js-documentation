@@ -209,7 +209,42 @@ Let's look this form.
 **Section 'import'** defines external components, functions, styles. 
 You must include React and Compose in every component. 
 Use `WithProps` function of recompose to configure of UI (labels, titles and other text) with localization.
-Use `import 'path/to/file_of_style.scss'` to add custom styles to the component.
+
+**Simple React component** describes by next code: 
+
+```javascript 
+const ComponentName = ({ data, ui, actions, locale }) => {
+  var variable=0;
+  return(
+    <div>
+      This is text and html markup
+      {data}
+      {variable}
+    </div>
+  );
+}
+```
+
+_data_ contains the values of input fields and other untranslatable information. It is get from Page of component. We will learn about data transfer later.
+
+_ui_ contains the labels, tooltips and other text with localization. Describe UI of your component as 
+`withProps(() => ({
+    ui: {
+     text: {
+       en: 'english text',
+       ru: 'русский текст'
+     }
+   }
+ }))`
+ 
+ You can get it from the component:
+ `{ui.text[locale]}`
+ 
+ _actions_ contain functions of the data processing. _actions_ describe using of the system. They include `onClick` handlers, `onChange` actions and others. Learn more about actions in `Create Page` section.
+ 
+_locale_ is value of selecting locale. It is get from Page of component. We will learn about locale transfer later.
+
+**Return section**
 
 **Note:** It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible. 
 [](https://react-bootstrap.github.io/components.html "See the list of available components and examples of using here.")
