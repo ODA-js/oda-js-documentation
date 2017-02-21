@@ -18,6 +18,6 @@ If you want to use your own styles in your component:
     @import "style";
 }
 ``` 
-* Create **style.scss** file with the custom styles of your component.
+* Create **style.scss** file with custom styles of your component.
 
 You can use React inline styles, too. See more: https://facebook.github.io/react/docs/dom-elements.html#style
