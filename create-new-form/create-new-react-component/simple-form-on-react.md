@@ -204,6 +204,8 @@ export default compose(
 )(SampleFormEdit);
 ```
 
+This example contains examples of using form controls.
+
 Let's look this form.
 
 **Section 'import'** defines external components, functions, styles.   
@@ -220,6 +222,7 @@ const ComponentName = ({ data, ui, actions, locale }) => {
       This is text and html markup
       {data}
       {variable}
+      <ChildComponent locale={locale}>
     </div>
   );
 }
