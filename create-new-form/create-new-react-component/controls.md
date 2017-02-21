@@ -79,12 +79,25 @@ You can see examples of using form controls on the next title of this documentat
 ####**2. Pannels**
 **Modal**
 ![](/assets/111.png)
-**Panel box**
-**Panel edit**
-**Panel grid**
-**Panel view **
-**Panel widget**
+___
 
+**Panel box**
+![](/assets/122.png)
+___
+
+**Panel edit**
+![](/assets/444.png)
+___
+
+**Panel grid**
+___
+
+**Panel view **
+___
+
+**Panel widget**
+![](/assets/555.png)
+___
 ####**3. Other**
 
 Content header
