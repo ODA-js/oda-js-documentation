@@ -244,7 +244,7 @@ _actions_ contain functions of the data processing. _actions_ describe using of 
 
 _locale_ is value of selecting locale. It is get from the Page of the component. We will learn about locale transfer later.
 
-**Return section**
+**Return section** contains the code of the component. It consists of html markup and child React components. Be careful to a single component was returned. The single component is a block of code wrapped by opening and closing tags. 
 
 **Note:** It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible.   
 
