@@ -248,4 +248,4 @@ _locale_ is value of selecting locale. It is get from the Page of the component.
 You can use the capabilities of Bootstrap in your html code, too.
 
 **Note:** It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible.   
-[](https://react-bootstrap.github.io/components.html "You can see React-bootstrap components and examples of it's using here.")
+You can see React-bootstrap components and examples of it's using here: https://react-bootstrap.github.io/components.html
