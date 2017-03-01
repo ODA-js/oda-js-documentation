@@ -250,5 +250,5 @@ _locale_ is value of selecting locale. It is get from the Page of the component.
 **Return section** contains the code of the component. It consists of html markup and child React components. Be careful to a single component was returned. The single component is a block of code wrapped by opening and closing tags. 
 You can use the capabilities of Bootstrap in your html code, too.
 
-**Note:** It's recommended to use react-bootstrap components instead of html with bootstrap classes, if it is possible.   
+**Note:** It's recommend to use react-bootstrap components instead of html with bootstrap classes, if it is possible.   
 You can see React-bootstrap components and examples of it's using here: https://react-bootstrap.github.io/components.html
