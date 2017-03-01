@@ -89,19 +89,19 @@ ___
 ![](/assets/444.png)
 ___
 
-**Panel grid**
-___
-
-**Panel view **
-___
-
 **Panel widget**
 ![](/assets/555.png)
 ___
 ####**3. Other**
 
-Content header
-Datatable
-Notification
-Progressbar
-Dropzone images
+**Content header**
+![](/assets/11.png)
+___
+**Datatable**
+___
+**Notification**
+___
+**Progressbar**
+![](/assets/112.png)
+___
+**Dropzone images**
