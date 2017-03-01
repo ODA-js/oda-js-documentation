@@ -8,6 +8,3 @@ For building form with databinding and with full functionality we need:
 * Add queries for get data in `beAdmin/src/queries/` folder
 * Describe the required mutations in `beAdmin/src/mutations/` folder 
 * Create new route in `beAdmin/src/routes.js`
-
-
-        [     !!!!Add section what you need!!!!     ]
