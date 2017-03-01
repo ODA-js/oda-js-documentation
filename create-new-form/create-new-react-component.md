@@ -7,3 +7,4 @@
 
 **Note:** If your component has a composite name, please use `_` as a separator. The name of component should be in the lower case.
 
+Learn more about React components: https://facebook.github.io/react/docs/components-and-props.html
