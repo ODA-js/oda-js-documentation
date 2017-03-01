@@ -12,7 +12,7 @@ for the install dependence and run project:
 
 ```bash
 
-npm run fullinstall
+npm run fullbuild
 npm run dev
 # in other terminals
 npm run dev-api
