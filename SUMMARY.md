@@ -27,4 +27,8 @@
     * [Create a new route](create-new-form/create-new-route.md)
   * [Customer mutation](customer-mutation.md)
     * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
+* [Using GraphQL](working-with-graphiql.md)
+  * [What is GraphQL?](working-with-graphiql/what-is-graphiql.md)
+  * [Examples of API queries](working-with-graphiql/examples-of-api-queries.md)
+  * [Documentation Explorer](working-with-graphiql/documentation-explorer.md)
 
