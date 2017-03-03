@@ -16,10 +16,10 @@
   * [Create new form](create-new-form.md)
     * [Create new React component](create-new-form/create-new-react-component.md)
       * [Controls](create-new-form/create-new-react-component/controls.md)
-      * Simple form on React
-      * Custom styles
+      * [Simple form on React](create-new-form/create-new-react-component/simple-form-on-react.md)
+      * [Custom styles](create-new-form/create-new-react-component/custom-styles.md)
     * [Add queries](create-new-form/add-queries.md)
-    * Describe mutations
+    * [Describe mutations](create-new-form/describe-mutations.md)
     * [Create page](create-new-form/create-page.md)
       * ['Import' section](create-new-form/create-page/'import'-section.md)
       * ['Relay Binding' section](create-new-form/create-page/'relay-binding'-section.md)

@@ -66,7 +66,7 @@ In our example we need two mutations:
   }
   ```
 
-  _getVariables\(\)_ parses data from the page \(see ['Create page' section](/create-new-form/create-page.md\) of this documentation\).
+  _getVariables\(\)_ parses data from the page \(see ['Create page' section](/create-new-form/create-page.md) of this documentation\).
   _getMutation\(\)_ gets the corresponding system mutation.
   _getFatQuery\(\)_ describes via _fragments_ what the data must change.
   _getConfigs\(\)_ defines the type of an operation and the required data to find the entity. In this example the operation is a field change and the required data is an id of  the entity.
