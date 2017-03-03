@@ -24,4 +24,5 @@
       * ['Export' section](create-new-form/create-page/'export'-section.md)
     * [Create a new route](create-new-form/create-new-route.md)
   * [Customer mutation](customer-mutation.md)
+    * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
 
