@@ -1,13 +1,15 @@
-# Controls 
+# Controls
 
-Controls placed in `/beAdmin/src/controls` folder. You will need controls if you want to create the input field, panel, modal window or something else and if you don't want to create it from scratch. 
-It's recommended to use created controls because they configured, designed, debugged and ready to work. 
-Before you create your own component for input data, pop-up or a similar functions, make sure that it isn't in `controls` folder. 
+The controls are placed in `/beAdmin/src/controls` folder. You will need the controls if you want to create the input field, panel, modal window or something else and if you don't want to create them from scratch.  
+It's recommended to use created controls because they are configured, designed, debugged and ready to work.
 
-Include the controls in the parent component with: 
+  
+Before you create your own component for input data, pop-up or a similar functions, make sure that it isn't in `controls` folder.
+
+Include the controls in the parent component with:  
 `import ComponentName from '../../controls/name_of_control'`
 
-Use it: 
+Use this:
 
 ```
 <ComponentName
@@ -16,92 +18,116 @@ Use it:
     prop3={boolean}
     prop4={Number}
 />
-
 ```
 
+### Existing controls:
 
-### Existing controls: 
+#### 1. Form controls
 
-####1. Form controls
-___
+---
+
 **Checkbox**
 
 ![](/assets/1.png)
-___
+
+---
+
 **Multiple checkbox**
 
 ![](/assets/2.png)
-___
+
+---
 
 **Dropdown simple**
 
 ![](/assets/3.png)
-___
+
+---
 
 **Field description**
 
 ![](/assets/4.png)
-___
+
+---
 
 **Field group edit**
 
 ![](/assets/5.png)
-___
 
+---
 
 **Field group edit with key**
 
 ![](/assets/6.png)
-___
+
+---
 
 **Field group text**
 
 ![](/assets/7.png)
-___
+
+---
 
 **Field static multiple**
 
 ![](/assets/8.png)
-___
 
-**Simple select**
+---
+
+**Simple select**  
 ![](/assets/9.png)
-___
+
+---
 
 **Switch checkbox**
 
 ![](/assets/10.png)
 
-___
+---
 
-You can see an examples of using the form controls on the next title of this documentation (`"Simple form on React"`).
+You can see the examples of using the form controls in the next title of this documentation \(`"Simple form on React"`\).
 
-####**2. Pannels**
-**Modal**
+#### **2. Panels**
+
+**Modal**  
 ![](/assets/111.png)
-___
 
-**Panel box**
+---
+
+**Panel box**  
 ![](/assets/122.png)
-___
 
-**Panel edit**
+---
+
+**Panel edit**  
 ![](/assets/444.png)
-___
 
-**Panel widget**
+---
+
+**Panel widget**  
 ![](/assets/555.png)
-___
-####**3. Other**
 
-**Content header**
+---
+
+#### **3. Other**
+
+**Content header**  
 ![](/assets/11.png)
-___
+
+---
+
 **Datatable**
-___
+
+---
+
 **Notification**
-___
-**Progressbar**
+
+---
+
+**Progress bar**  
 ![](/assets/112.png)
-___
+
+---
+
 **Dropzone images**
+
