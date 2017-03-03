@@ -18,7 +18,7 @@
       * [Controls](create-new-form/create-new-react-component/controls.md)
       * Simple form on React
       * Custom styles
-    * Add queries
+    * [Add queries](create-new-form/add-queries.md)
     * Describe mutations
     * [Create page](create-new-form/create-page.md)
       * ['Import' section](create-new-form/create-page/'import'-section.md)
