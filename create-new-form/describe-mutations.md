@@ -10,7 +10,7 @@ If you want to use one of the system mutations, you should describe them in the 
 
 Create file of the mutation and name it with the name of the mutation what you want to describe. Make sure that required mutation is not already exist.
 
-**Note**: check the list of available mutations in the Documentation Explorer of GraphiQL. \(See Graphiql section for more information\)
+**Note**: check the list of available mutations in the Documentation Explorer of GraphiQL. \(See [Graphiql](/working-with-graphiql.md) section for more information\)
 
 In our example we need two mutations:
 
@@ -66,11 +66,11 @@ In our example we need two mutations:
   }
   ```
 
-  _getVariables\(\)_ parses data from the page \(see ['Create page' section](/create-new-form/create-page.md) of this documentation\).
+  _getVariables\(\)_ parses data from the page \(see ['Create page' section](/create-new-form/create-page.md\) of this documentation\).
   _getMutation\(\)_ gets the corresponding system mutation.
   _getFatQuery\(\)_ describes via _fragments_ what the data must change.
   _getConfigs\(\)_ defines the type of an operation and the required data to find the entity. In this example the operation is a field change and the required data is an id of  the entity.
-  _getOptimisticResponse\()\) and returns the input of the mutation. It is a set of changing fields.
+  _getOptimisticResponse\(\)\) and returns the input of the mutation. It is a set of changing fields.
 
 * **AddAchToCurrency** relates an existing Currency entity with an existing Ach entity and has the same code.
 
