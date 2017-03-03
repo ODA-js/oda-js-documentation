@@ -19,4 +19,5 @@
       * Simple form on React
       * Custom styles
     * [Create page](create-new-form/create-page.md)
+      * ['Import' section](create-new-form/create-page/'import'-section.md)
 
