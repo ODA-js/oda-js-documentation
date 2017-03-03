@@ -17,4 +17,5 @@
     * [Create new React component](create-new-form/create-new-react-component.md)
       * [Controls](create-new-form/create-new-react-component/controls.md)
       * Simple form on React
+      * Custom styles
 
