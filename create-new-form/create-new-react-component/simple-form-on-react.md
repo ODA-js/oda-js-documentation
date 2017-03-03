@@ -1,6 +1,6 @@
 # Simple form on React
 
-Typical React component looks like this:
+A typical React component looks like this:
 
 ```javascript
 import React from 'react';
@@ -204,15 +204,15 @@ export default compose(
 )(SampleFormEdit);
 ```
 
-This example contains examples of using form controls.
+This example contains the examples of using form controls.
 
-Let's look this form.
+Let's look at this form.
 
-**Section 'import'** defines external components, functions, styles.   
-You must include React and Compose in every component.   
-Use `WithProps` function of recompose to configure of UI \(labels, titles and other text\) with localization.
+**'Import' section ** defines external components, functions, styles.  
+You must include React and Compose in every component.  
+Use `WithProps` function of recompose to configure of UI \(labels, titles and other text\) with the localization.
 
-**Simple React component** describes by next code:
+**Simple React component** described with the next code:
 
 ```javascript
 const ComponentName = ({ data, ui, actions, locale }) => {
@@ -228,17 +228,20 @@ const ComponentName = ({ data, ui, actions, locale }) => {
 }
 ```
 
-_data_ contains the values of input fields and other untranslatable information. It gets from the Page of the component. We will learn about data transfer later.
+_data_ contains the values of input fields and other untranslatable information. It gets data from the Page of the component. We will learn about the data transfer later.
 
-_ui_ contains the labels, tooltips and other text with localization. Describe UI of your component as   
-`withProps(() => ({  
+_ui_ contains labels, tooltips and other text with localization. Describe UI of your component as
+
+```javascript
+  withProps(() => ({  
     ui: {  
      text: {  
        en: 'english text',  
        ru: 'русский текст'  
      }  
    }  
- }))`
+ }))
+```
 
 You can get it from the component:  
  `{ui.text[locale]}`
@@ -247,8 +250,9 @@ _actions_ contain functions of the data processing. _actions_ describe using of 
 
 _locale_ is value of selecting locale. It is get from the Page of the component. We will learn about locale transfer later.
 
-**Return section** contains the code of the component. It consists of html markup and child React components. Be careful to a single component was returned. The single component is a block of code wrapped by opening and closing tags. 
+**Return section** contains the code of the component. It consists of html markup and child React components. Be careful with a single component returned. The single component is a block of code wrapped in opening and closing tags.   
 You can use the capabilities of Bootstrap in your html code, too.
 
-**Note:** It's recommend to use react-bootstrap components instead of html with bootstrap classes, if it is possible.   
-You can see React-bootstrap components and examples of it's using here: https://react-bootstrap.github.io/components.html
+**Note:** It's recommend to use react-bootstrap components instead of html with the bootstrap classes, if it is possible.  
+You can see React-bootstrap components and examples of it's using here: [https://react-bootstrap.github.io/components.html](https://react-bootstrap.github.io/components.html)
+
