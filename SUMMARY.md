@@ -14,4 +14,5 @@
   * [Project layout](project-layout.md)
   * [Run Project](run-project.md)
   * [Create new form](create-new-form.md)
+    * Create new React component
 
