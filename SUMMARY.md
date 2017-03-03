@@ -18,13 +18,13 @@
       * [Controls](create-new-form/create-new-react-component/controls.md)
       * Simple form on React
       * Custom styles
+    * Add queries
+    * Describe mutations
     * [Create page](create-new-form/create-page.md)
       * ['Import' section](create-new-form/create-page/'import'-section.md)
       * ['Relay Binding' section](create-new-form/create-page/'relay-binding'-section.md)
       * ['Export' section](create-new-form/create-page/'export'-section.md)
     * [Create a new route](create-new-form/create-new-route.md)
-    * Add queries
-    * Describe mutations
   * [Customer mutation](customer-mutation.md)
     * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
 
