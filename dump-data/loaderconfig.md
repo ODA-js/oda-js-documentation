@@ -91,9 +91,21 @@ The queries is placed in `api4/data/queries` folder. Every entity has it's own f
 **Note**: Learn more about Queries from the [Queries](/dump-data/queries.md) section.
 
 ##### 2. Import, relations section
-It contains the relations between entities and has the next structure:
-
-
-
+It contains the relations between entities and has the next structure: 
+```javascript
+ParentEntity: {
+  childEntityFieldName: {
+  type: 'ChildEntity',
+  filter: `{
+    uniqueKeyOfParent
+    childEntityFieldName {
+      uniqueKeyOfChild
+    }
+  }`,
+  relate: 'ParentEntity/assignToChildEntity.graphql',
+  }
+}
+```
+_Relate_ contains the path to the relating query.
 
 ##### 3. Export
