@@ -16,12 +16,16 @@ It asks that
 
 **Note**: run the commands from the api4 folder.
 
-api4/src/seeds folder contains dump and restore files and loaderConfig.ts file. it is the main file of dump that describes what you want to i/e.
+**api4/src/seeds** folder contains the `dumpDirect.ts` and `restore.ts` files that implement the import/export operations. 
 
-api4/data/queries folder contains the queries for i/e and used by loaderConfig. 
+`loaderConfig.ts` file is placed in the same folder. It is the main config file that describes what you want to import/export. (Learn more about [LoaderConfig](/dump-data/loaderconfig.md))
 
-If you change loaderConfig or Query, you must to recompile api4 by running command
-npm run compile
+`api4/data/queries` folder contains the queries for import/export and used by loaderConfig. (Learn more about [Queries for LoaderConfig](/dump-data/queries.md))
 
-See the result of dump in the data/dump1.json file.
-Place the data what you want to import to the database in the data/dump.json file. 
+* See the result of the data export in the `api4/data/dump1.json` file. 
+* Place the imported data in the `api4/data/dump.json` file. 
+
+Or you can change the filenames in the forementioned `package.json` file.
+
+**Note:** If you change the loaderConfig.ts or it's some query, you must recompile api4 by running command `npm run compile` from api4.
+
