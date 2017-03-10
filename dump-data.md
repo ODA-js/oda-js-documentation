@@ -14,5 +14,14 @@ It asks that
 * the command to dump (export from the database) data is: 
   `npm run dumpData`
 
-**Note**: start the commands from the api4 folder.
+**Note**: run the commands from the api4 folder.
 
+api4/src/seeds folder contains dump and restore files and loaderConfig.ts file. it is the main file of dump that describes what you want to i/e.
+
+api4/data/queries folder contains the queries for i/e and used by loaderConfig. 
+
+If you change loaderConfig or Query, you must to recompile api4 by running command
+npm run compile
+
+See the result of dump in the data/dump1.json file.
+Place the data what you want to import to the database in the data/dump.json file. 

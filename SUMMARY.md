@@ -29,6 +29,8 @@
     * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
   * [Update schema](update-schema.md)
   * [Data import/export](dump-data.md)
+    * [LoaderConfig](dump-data/loaderconfig.md)
+    * [Queries](dump-data/queries.md)
   * [Generation of UML Diagrams](generation-of-uml-diagrams.md)
 * [Using GraphQL](working-with-graphiql.md)
   * [What is GraphQL?](working-with-graphiql/what-is-graphiql.md)
