@@ -108,4 +108,6 @@ ParentEntity: {
 ```
 _Relate_ contains the path to the relating query.
 
-##### 3. Export
+##### 3. Export section
+It describes a structure of the entities what you want to export from the database. It uses the _query_ of export.
+ _Process()_ parses the data, removes unnecessary nesting or returns an empty array if the data isn't found.
