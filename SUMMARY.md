@@ -28,6 +28,7 @@
   * [Customer mutation](customer-mutation.md)
     * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
   * [Schema](update-schema.md)
+    * [Entities](update-schema/entities.md)
   * [Data import/export](dump-data.md)
     * [LoaderConfig](dump-data/loaderconfig.md)
     * [Queries](dump-data/queries.md)
