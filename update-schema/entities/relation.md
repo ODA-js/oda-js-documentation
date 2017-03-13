@@ -1,41 +1,43 @@
 # Relation
 
 Type of relations:
-- **1 : 1**
+
+* **1 : 1**
 
 Description points of relation.
 
+| Entity 1 | Entity 2 |
+| --- | --- |
+| hasOne | belongsTo |
+| nameEntity1\#indexed field | nameEntity2\#identity field |
+
+All descriptions you can find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
+
+* **1 : n**
 
 | Entity 1 | Entity 2 |
-| --------------| ---- |
-|hasOne | belongsTo |
-|nameEntity1#indexed field | nameEntity2#identity field |
+| --- | --- |
+| hasMany | belongsTo |
+| nameEntity1\#indexed field | nameEntity2\#identity field |
 
-All description you find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
-- **1 : n**
+All descriptions you can find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
 
-| Entity 1 | Entity 2 |
-| --------------| ---- |
-|hasMany | belongsTo |
-|nameEntity1#indexed field | nameEntity2#identity field |
-
-
-All description you find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
-
-- **m : n**
+* **m : n**
 
 | Entity 1 | Entity 2 |
-| --------------| ---- |
-| belongsToMany| belongsToMany |
-|nameEntity1#identity field | nameEntity2#identity field |
+| --- | --- |
+| belongsToMany | belongsToMany |
+| nameEntity1\#identity field | nameEntity2\#identity field |
+
+All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
 
 
-All description you find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
 
-Consider examples of relations:
-**1)  1 : 1**
-Contact relations with Phone.
+Consider examples of relations:  
+**1\)  1 : 1**  
+Contact relations with Phone.  
 File _Contact.ts_:
+
 ```
     {
       'name': 'phone',
@@ -46,7 +48,9 @@ File _Contact.ts_:
       },
     }
 ```
+
 File _Phone.ts_:
+
 ```
     {
       'name': 'contact',
@@ -57,9 +61,11 @@ File _Phone.ts_:
       },
     }
 ```
-**2)  1 : n**
-Organization has many Campaigns. Campaign belongs to one Organization.
+
+**2\)  1 : n**  
+Organization has many Campaigns. Campaign belongs to one Organization.  
 File _Organization.ts_:
+
 ```
     {
       'name': 'campaigns',
@@ -69,7 +75,9 @@ File _Organization.ts_:
       },
     },
 ```
+
 File _Campaign.ts_:
+
 ```
     {
       'name': 'organization',
@@ -79,9 +87,11 @@ File _Campaign.ts_:
       }
     },
 ```
-**3)  m : n**
-Organization relations with object Profile Type.
+
+**3\)  m : n**  
+Organization relations with object Profile Type.  
 File _Organization.ts_:
+
 ```
     {
       'name': 'profileTypes',
@@ -92,7 +102,9 @@ File _Organization.ts_:
       },
     },
 ```
+
 File _ProfileType.ts_:
+
 ```
     {
       'name': 'organizations',
@@ -102,3 +114,6 @@ File _ProfileType.ts_:
       },
     },
 ```
+
+
+
