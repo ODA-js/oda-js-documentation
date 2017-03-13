@@ -19,7 +19,7 @@ Every imported/exported entity needs queries:
   }
   ```
 
-  **Note: **You can replace _InviteMatcher_ by the name of any entity. The same works also for other queries.
+  **Note: **You can replace _InviteMatcher_ by the name of any entity. The same works for other queries too.
 
 * **findById.graphql**
 
@@ -32,6 +32,7 @@ Every imported/exported entity needs queries:
   ```
 
 * **list.graphql**
+
   ```javascript
   query InviteMatchers {
   viewer{
@@ -45,6 +46,7 @@ Every imported/exported entity needs queries:
   }
   }
   ```
+
 * **update.graphql**
 
   ```javascript
@@ -112,5 +114,5 @@ mutation assignInviteMatcherToInvitedMatcher($connection: addToInviteMatcherHasM
 }
 ```
 
-All queries and mutations from this section is described in [Documentation Explorer](/working-with-graphiql/documentation-explorer.md) and can be checked in [GraphQL](/working-with-graphiql.md).
+All queries and mutations from this section are described in [Documentation Explorer](/working-with-graphiql/documentation-explorer.md) and can be checked in [GraphQL](/working-with-graphiql.md).
 
