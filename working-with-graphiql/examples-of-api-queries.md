@@ -25,7 +25,7 @@ _**createOrganization - creates organization.**_
 
 _**createOrganizationProfile - creates organizationProfile.**_
 
-```
+```graphql
 mutation createOrganizationProfile {
     createOrganizationProfile(input: {}) {
       organizationProfile {
