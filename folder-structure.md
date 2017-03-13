@@ -20,7 +20,8 @@ charidy-server/
 
 * api4 - root folder for api
 * api-images - root folder for the service of image uploading
-* auth - root folder for authentication service
+* auth - root folder for authentication service based on Server side react code generation using `express.js`
+* authNew - root folder for authentication service using `client-side`-react application.
 * beAdmin - root for current admin project
 * config - root folder for configuration files
 * common - root folder for common functions for every project.

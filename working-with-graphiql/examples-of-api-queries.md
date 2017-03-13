@@ -39,7 +39,8 @@ mutation createOrganizationProfile {
 
 _**addOrganizationHasManyOrganizationProfiles - connects organization and organizationProfile.**_
 
-```
+```graphql
+
 mutation addOrganizationHasManyOrganizationProfiles {
     addOrganizationHasManyOrganizationProfiles(input: {
       organization: "id_organization_from_createOrganization_payload",
@@ -61,7 +62,8 @@ mutation addOrganizationHasManyOrganizationProfiles {
 
 _**getOrganization - returns organization by id**_
 
-```
+```graphql
+
   query getOrganization {
     organization(id: "id_organization_from_createOrganization_payload") {
       name
@@ -80,7 +82,8 @@ _**getOrganization - returns organization by id**_
 
 _**getOrganizations - returns the first 200 Organization, with other data**_
 
-```
+```graphql
+
 query getOrganizations {
     organizations(first: 200) {
       edges {
@@ -234,7 +237,8 @@ query getOrganizations {
 
 _**updateOrganization - updates organization by id**_
 
-```
+```graphql
+
 mutation updateOrganization {
     updateOrganization(input: {
       id: "id_organization_from_createOrganization_payload",
@@ -253,7 +257,8 @@ mutation updateOrganization {
 
 _**removeOrganizationHasManyOrganizationProfiles - unset the connection between the organization and organizationProfile**_
 
-```
+```graphql
+
 mutation removeOrganizationHasManyOrganizationProfiles {
     removeOrganizationHasManyOrganizationProfiles(input: {
       organization: "id_organization_from_createOrganization_payload",
@@ -275,7 +280,8 @@ mutation removeOrganizationHasManyOrganizationProfiles {
 
 _**removeOrganization - delete organization by id**_
 
-```
+```graphql
+
 mutation removeOrganization {
     removeOrganization(input: {
       id: "id_organization_from_createOrganization_payload"
