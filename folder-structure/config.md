@@ -7,7 +7,6 @@ Node.js module [config](https://www.npmjs.com/package/config) is intended to sto
 ## file structure in common
 
 ```json
-
 {
   "AppName": "@charidy/new",
   "statics": "/public/", // path to url last / is required!!!
@@ -125,6 +124,4 @@ Node.js module [config](https://www.npmjs.com/package/config) is intended to sto
     "expiresIn": "1h"
   }
 }
-
-
 ```
