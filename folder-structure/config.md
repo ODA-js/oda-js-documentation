@@ -12,6 +12,7 @@ all configudation for file layout is relative to root fol
 {
   "AppName": "@charidy/new",
   // path to static folder
+  // !!! NOTE: the last '/' is required
   "statics": "/public/", // path to url last / is required!!!
   "hosts": {
     "api": {
