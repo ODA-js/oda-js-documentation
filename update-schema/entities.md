@@ -1,7 +1,7 @@
 # Entities
 
-Before create **entities** your need to build **Data Model**. Each object of your Data Model is it **entity**.  
-Entity describes fields of object and relations object with another object of model.
+Before create **entities** your need to build **Data Model**. Each object of your Data Model is an **entity**.  
+Entity describes fields of object and relations between object and another object of model.
 
 **For example: **describe object City and relation City with Country.
 
@@ -10,10 +10,10 @@ Entity describes fields of object and relations object with another object of mo
 
 **Note:** File must be named by next rules:
 
-* not contain spaces or other special characters;
+* no spaces or other special characters;
 * start with a capital letter. 
 
-3.Describes fields and relations of object;
+3.Describe fields and relations of object;
 
     export default {
       name: 'City',
