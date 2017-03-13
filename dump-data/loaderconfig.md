@@ -1,7 +1,8 @@
 # Loader config
 
-Lets look on the simple example of the import/export configuration. 
+Lets look at the simple example of the import/export configuration.   
 **api4/src/seeds/loaderConfig.ts**
+
 ```javascript
 export default {
   uri: 'http://localhost:3003/graphql',
@@ -77,21 +78,27 @@ export default {
   },
 };
 ```
-This configuration describes: 
+
+This configuration describes:
+
 * **inviteMatcher** entity with id, type, displayName fields
 * **invitedMatcher** entity with firstName, lastName, fullName, id, amount, email fields.
-* **Relation** of these entities (InviteMatcher has many InvitedMatchers). (Learn more about [Relations](/update-schema.md))
+* **Relation** of these entities \(InviteMatcher has many InvitedMatchers\). \(Learn more about [Relations](/update-schema.md)\)
 
 The config contains 3 sections.
-##### 1. Import, queries section
-It describes a structure of the entities what you want to import. It uses the queries of _uploader_ section in the import process.
-**FindQuery** finds an entity in a database by id or other unique field. If the entity doesn't exist, **createQuery** creates it. Else **updateQuery** updates the finded entity by the data from the dump. **findVars** returns the unique value of field which is used in findQuery.
 
-The queries is placed in `api4/data/queries` folder. Every entity has it's own folder with it's own data fragments. 
+##### 1. Import, queries section
+
+It describes a structure of the entities that you want to import. It uses the queries of _uploader_ section in the import process.  
+**FindQuery** finds an entity in a database by id or other unique field. If the entity doesn't exist, **createQuery** creates it, else **updateQuery** updates the found entity by the data from the dump. **findVars** returns the unique value of field which is used in findQuery.
+
+The queries are placed in `api4/data/queries` folder. Every entity has it's own folder with it's own data fragments.   
 **Note**: Learn more about Queries from the [Queries](/dump-data/queries.md) section.
 
 ##### 2. Import, relations section
-It contains the relations between entities and has the next structure: 
+
+It contains the relations between entities and has structure like this:
+
 ```javascript
 ParentEntity: {
   childEntityFieldName: {
@@ -106,8 +113,11 @@ ParentEntity: {
   }
 }
 ```
+
 _Relate_ contains the path to the relating query.
 
 ##### 3. Export section
-It describes a structure of the entities what you want to export from the database. It uses the _query_ of export.
- _Process()_ parses the data, removes unnecessary nesting or returns an empty array if the data isn't found.
+
+It describes a structure of entities that you want to export from the database. It uses the _query_ of export.  
+ _Process\(\)_ parses the data, removes unnecessary nesting or returns an empty array if the data is not found.
+
