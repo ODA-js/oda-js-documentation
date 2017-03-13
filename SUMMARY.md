@@ -30,6 +30,7 @@
   * [Schema](update-schema.md)
     * [Entities](update-schema/entities.md)
       * [Field](update-schema/entities/fields.md)
+      * [Relation](update-schema/entities/relation.md)
   * [Data import/export](dump-data.md)
     * [LoaderConfig](dump-data/loaderconfig.md)
     * [Queries](dump-data/queries.md)
