@@ -45,9 +45,6 @@ all configudation for file layout is relative to root fol
   "db": {
     "api": {
       "url": "mongodb://localhost/testGen"
-    },
-    "session": {
-      "url": "mongodb://localhost/charidy"
     }
   },
   "passport": {
