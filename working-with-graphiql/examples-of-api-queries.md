@@ -4,7 +4,7 @@ Here are the example API queries. Please notice that they are only to work in gr
 
 _**createOrganization - creates organization.**_
 
-```
+```graphql
   mutation createOrganization {
     createOrganization(input: {
       name: "OrganizationName",
