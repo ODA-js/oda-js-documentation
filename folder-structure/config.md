@@ -6,7 +6,8 @@ Node.js module [config](https://www.npmjs.com/package/config) is intended to sto
 
 ## file structure in common
 
-```json
+````json
+
 {
   "AppName": "@charidy/new",
   "statics": "/public/", // path to url last / is required!!!
