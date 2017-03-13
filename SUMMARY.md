@@ -27,7 +27,7 @@
     * [Create a new route](create-new-form/create-new-route.md)
   * [Customer mutation](customer-mutation.md)
     * [Create Customer Mutation](customer-mutation/create-customer-mutation.md)
-  * [Update schema](update-schema.md)
+  * [Schema](update-schema.md)
   * [Data import/export](dump-data.md)
     * [LoaderConfig](dump-data/loaderconfig.md)
     * [Queries](dump-data/queries.md)
