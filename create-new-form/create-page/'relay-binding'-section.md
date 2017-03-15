@@ -4,6 +4,9 @@
 
 * Learn more about Recompose and it's functions mentioned below: [https://github.com/acdlite/recompose/blob/master/docs/API.md\#toc](https://github.com/acdlite/recompose/blob/master/docs/API.md#toc)
 * Learn more about Relay queries, fragments and mutations: [https://facebook.github.io/relay/docs/api-reference-relay-ql.html](https://facebook.github.io/relay/docs/api-reference-relay-ql.html) 
+* Learn more about Relay Container: https://facebook.github.io/relay/docs/api-reference-relay-container.html
+
+
 
 **'Relay binding' section** is contained in the "RelayBinding" constant. It is the function _compose\(\)_ from Recompose.
 

@@ -7,6 +7,8 @@
 
 Let's look at the example of typical structure of the edit page.
 
+**Note: ** Learn more about _RelayContainer_: https://facebook.github.io/relay/docs/api-reference-relay-container.html
+
 ```javascript
 import React from 'react';
 import Relay from 'react-relay';
