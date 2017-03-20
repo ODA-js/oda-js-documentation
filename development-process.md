@@ -31,10 +31,8 @@ npm i -g eslint
 
 run in root directory of project
 
-also you need to install dependency for each of the microservice-project
-
 ```
-npm i
+npm run fullbuild
 ```
 
 ## Start working with code
