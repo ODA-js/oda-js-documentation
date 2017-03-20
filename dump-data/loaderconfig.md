@@ -1,89 +1,82 @@
-# Loader config
+# Initial
 
-Lets look at the simple example of the import/export configuration.   
-**api4/src/seeds/loaderConfig.ts**
+Lets look at the simple example of the import configuration.  
+**api4/src/seeds/initial.ts**
 
 ```javascript
 export default {
   uri: 'http://localhost:3003/graphql',
   import: {
     queries: {
-      InvitedMatcher: {
+      User: {
         filter: `{
-          firstName
-          lastName
-          fullName
           id
-          amount
-          email
+          firstName
+          enabled
+          userName
+          password
+          isSystem
+          owner
         }`,
         uploader: {
-          findQuery: 'InvitedMatcher/findById.graphql',
-          createQuery: 'InvitedMatcher/create.graphql',
-          updateQuery: 'InvitedMatcher/update.graphql',
-          dataPropName: 'invitedMatcher',
-          findVars: (f) => ({ id: f.id }),
+          findQuery: 'User/findByName.graphql',
+          createQuery: 'User/create.graphql',
+          updateQuery: 'User/update.graphql',
+          dataPropName: 'user',
+          findVars: (f) => ({ userName: f.userName }),
         },
       },
-      InviteMatcher: {
+      Organization: {
         filter: `{
-          type
-          displayName
           id
+          name
+          owner
         }`,
         uploader: {
-          findQuery: 'InviteMatcher/findById.graphql',
-          createQuery: 'InviteMatcher/create.graphql',
-          updateQuery: 'InviteMatcher/update.graphql',
-          dataPropName: 'inviteMatcher',
-          findVars: (f) => ({ id: f.id }),
-        }
+          findQuery: 'Organization/findByName.graphql',
+          createQuery: 'Organization/create.graphql',
+          updateQuery: 'Organization/update.graphql',
+          dataPropName: 'organization',
+          findVars: (f) => ({ name: f.name }),
+        },
       }
     },
     relations: {
-      InviteMatcher: {
-        invitedMatcher: {
-          type: 'InvitedMatcher',
+      User: {
+        userSetting: {
+          type: 'UserSetting',
           filter: `{
-            id
-            invitedMatcher {
+            userName
+            userSetting {
               id
             }
           }`,
-          relate: 'InviteMatcher/assignToInvitedMatcher.graphql',
-        }
+          relate: 'User/assignToUserSetting.graphql',
+        },
+      },
+      Organization: {
+        profileTypes: {
+          singular: 'profileType',
+          type: 'ProfileType',
+          filter: `{
+            id
+            name
+            profileTypes {
+              key
+            }
+          }`,
+          relate: 'Organization/assignToProfileType.graphql',
+        },
       }
     },
   },
-  export: {
-    queries: {
-      InvitedMatcher: {
-        query: `InvitedMatcher/export.graphql`,
-        process: (f) => ({
-          InvitedMatcher: f.viewer.invitedMatchers ? f.viewer.invitedMatchers.edges.map(e => ({
-            ...e.node,
-          })) : [],
-        }),
-      },
-      InviteMatcher: {
-        query: `InviteMatcher/export.graphql`,
-        process: (f) => ({
-          InviteMatcher: f.viewer.inviteMatchers ? f.viewer.inviteMatchers.edges.map(e => ({
-            ...e.node,
-            invitedMatcher: e.node.invitedMatcher ? e.node.invitedMatcher.edges.map(d => d.node) : [],
-          })) : [],
-        }),
-      },
-    },
-  },
-};
 ```
 
 This configuration describes:
 
-* **inviteMatcher** entity with id, type, displayName fields
-* **invitedMatcher** entity with firstName, lastName, fullName, id, amount, email fields.
-* **Relation** of these entities \(InviteMatcher has many InvitedMatchers\). \(Learn more about [Relations](/update-schema.md)\)
+* **user** entity with id, firstName, enabled, userName, password, onwer fields
+* **organization** entity with name, id,  owner fields.
+* **Relations** entities. \(Learn more about [Relations](/update-schema.md)\)
 
 The config contains 3 sections.
 
@@ -92,7 +85,7 @@ The config contains 3 sections.
 It describes a structure of the entities that you want to import. It uses the queries of _uploader_ section in the import process.  
 **FindQuery** finds an entity in a database by id or other unique field. If the entity doesn't exist, **createQuery** creates it, else **updateQuery** updates the found entity by the data from the dump. **findVars** returns the unique value of field which is used in findQuery.
 
-The queries are placed in `api4/data/queries` folder. Every entity has it's own folder with it's own data fragments.   
+The queries are placed in `api4/data/queries` folder. Every entity has it's own folder with it's own data fragments.  
 **Note**: Learn more about Queries from the [Queries](/dump-data/queries.md) section.
 
 ##### 2. Import, relations section
@@ -115,9 +108,4 @@ ParentEntity: {
 ```
 
 _Relate_ contains the path to the relating query.
-
-##### 3. Export section
-
-It describes a structure of entities that you want to export from the database. It uses the _query_ of export.  
- _Process\(\)_ parses the data, removes unnecessary nesting or returns an empty array if the data is not found.
 

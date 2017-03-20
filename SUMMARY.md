@@ -32,7 +32,7 @@
       * [Field](update-schema/entities/fields.md)
       * [Relation](update-schema/entities/relation.md)
   * [Data import/export](dump-data.md)
-    * [LoaderConfig](dump-data/loaderconfig.md)
+    * [Initial](dump-data/loaderconfig.md)
     * [Queries](dump-data/queries.md)
   * [Generation of UML Diagrams](generation-of-uml-diagrams.md)
 * [Run Project](run-project.md)
