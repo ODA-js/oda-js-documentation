@@ -43,4 +43,5 @@
     * [What is GraphQL?](development-issues/working-with-graphiql/what-is-graphiql.md)
     * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
+* [Graphql Documentation generator](development-issues/graphql-documentation-generator.md)
 
