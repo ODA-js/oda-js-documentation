@@ -27,8 +27,8 @@ For adding the new route for the component:
    ```javascript
    <Route
     path="ach/edit/:id"
-    components={{ modal: AchEditModal }}
-    queries={{ modal: editViewAch }}
+    components={ { modal: AchEditModal } }
+    queries={ { modal: editViewAch } }
    />
    ```
 
