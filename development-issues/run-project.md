@@ -1,5 +1,6 @@
 # Run project
 
+## Development
 If neither yarn nor typescript is installed:
 
 ```
@@ -32,6 +33,14 @@ $ sudo npm i -g @2fd/graphdoc
 ```bash
 $ ./run-dev-api4.sh
 ```
+##Production
+
+To run production environment we need:
+- install project for development,
+- build static files
+- change `config/production.json` file according to working environment.
+- setup `NODE_ENV=production` to `config`-module took right configuration file.
+- run shell command: `NODE_ENV=production forever production.json`
 
 
 
