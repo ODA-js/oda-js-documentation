@@ -35,12 +35,17 @@ $ ./run-dev-api4.sh
 ```
 ##Production
 
+### run
 To run production environment we need:
 - install project for development,
 - build static files
 - change `config/production.json` file according to working environment.
 - setup `NODE_ENV=production` to `config`-module took right configuration file.
 - run shell command: `NODE_ENV=production forever production.json`
+
+### update working set
+
+to update working set you need to change `production.json` accordingly.
 
 
 
