@@ -46,7 +46,3 @@ To run production environment we need:
 ### update working set
 
 to update working set you need to change `production.json` accordingly.
-
-
-
-
