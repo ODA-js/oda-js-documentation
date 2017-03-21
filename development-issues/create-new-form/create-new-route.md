@@ -50,8 +50,8 @@ export default (
     <Route path="organization">
       <Route
         path="banking"
-        components={{ main: Banking }}
-        queries={{ main: viewer }}
+        components={ { main: Banking } }
+        queries={ { main: viewer } }
         prepareParams={prepareWidgetListParams}
       >
         <Route
