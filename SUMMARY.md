@@ -11,7 +11,7 @@
     * [Editing the data](editing-the-data.md)
     * [Translation & Localization](translation--localization.md)
     * [Dictionary](dictionary.md)
-* [Development Process](development-process.md)
+* [Development Process](development-issues/development-process.md)
   * [Folder structure](folder-structure.md)
   * [Project layout](project-layout.md)
   * [Configuring appilcation](folder-structure/config.md)
