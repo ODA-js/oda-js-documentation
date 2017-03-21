@@ -29,7 +29,7 @@
     * [Create a new route](development-issues/create-new-form/create-new-route.md)
   * [Customer mutation](development-issues/customer-mutation.md)
     * [Create Customer Mutation](development-issues/customer-mutation/create-customer-mutation.md)
-  * [Schema](update-schema.md)
+  * [Schema](development-issues/update-schema.md)
     * [Entities](development-issues/update-schema/entities.md)
       * [Field](development-issues/update-schema/entities/fields.md)
       * [Relation](development-issues/update-schema/entities/relation.md)
