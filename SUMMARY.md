@@ -1,10 +1,10 @@
 # Summary
 
 * [Overview](README.md)
-* [System Architecture](system-architecture.md)
-  * [Microservice](microservice/microservice.md)
-    * [Network Architecture](microservice/network-architecture.md)
-  * [Data layer](data-layer.md)
+* [System Architecture](system-architecture/system-architecture.md)
+  * [Microservice](system-architecture/microservice/microservice.md)
+    * [Network Architecture](system-architecture/microservice/network-architecture.md)
+  * [Data layer](system-architecture/data-layer.md)
     * [UML Diagrams of the designed system](data-layer/uml-diagrams-of-the-designed-system.md)
   * [UI](ui.md)
     * [Storybook](storybook.md)
