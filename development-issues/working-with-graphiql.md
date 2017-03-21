@@ -2,7 +2,7 @@
 
 In this section we will describe using of GraphQL.
 
-You can access API viewer here: [http://78.46.70.183:3000/graphiql](http://78.46.70.183:3000/graphiql)
+You can access API viewer here: [http://78.46.70.183:3033](http://78.46.70.183::3033)
 
 It looks like this:
 
