@@ -50,7 +50,7 @@
   * [Edit Organization Profile](charidy-admin-user-guide/edit-organization-profile.md)
   * [Users](charidy-admin-user-guide/users.md)
   * [Banking and Gateways](charidy-admin-user-guide/banking-and-gateways.md)
-  * Donor-Base Value
+  * [Donor-Base Value](charidy-admin-user-guide/donor-base-value.md)
   * Add Bonus Matcher to Campaign
   * Campaign Visual Editor
   * Logout
