@@ -45,7 +45,7 @@
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
   * [Login](charidy-admin-user-guide/login.md)
-  * Change language
+  * [Change language](charidy-admin-user-guide/change-language.md)
   * Create organization
   * Edit Organization Profile
   * Users
