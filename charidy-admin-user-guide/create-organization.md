@@ -1,5 +1,5 @@
 # Create organization * 
-\* for System user only
+\* _for System user only_
 
 1. Log in as system user.
 - On “Organization Profile” page, click on “Start” link under “Organization Profile” text in “Get started by setting up the basics” block.

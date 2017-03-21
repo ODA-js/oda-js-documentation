@@ -47,7 +47,7 @@
   * [Login](charidy-admin-user-guide/login.md)
   * [Change language](charidy-admin-user-guide/change-language.md)
   * [Create organization](charidy-admin-user-guide/create-organization.md)
-  * Edit Organization Profile
+  * [Edit Organization Profile](charidy-admin-user-guide/edit-organization-profile.md)
   * Users
   * Banking and Gateways
   * Donor-Base Value
