@@ -49,7 +49,7 @@
   * [Create organization](charidy-admin-user-guide/create-organization.md)
   * [Edit Organization Profile](charidy-admin-user-guide/edit-organization-profile.md)
   * [Users](charidy-admin-user-guide/users.md)
-  * Banking and Gateways
+  * [Banking and Gateways](charidy-admin-user-guide/banking-and-gateways.md)
   * Donor-Base Value
   * Add Bonus Matcher to Campaign
   * Campaign Visual Editor
