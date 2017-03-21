@@ -24,8 +24,8 @@
 
 #Contact diagram
 
-![](assets/Contact.png)
+![](/assets/Contact.png)
 
 #Banking
 
-![](assets/Banking.png)
+![](/assets/Banking.png)
