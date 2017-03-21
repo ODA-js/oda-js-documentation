@@ -11,5 +11,8 @@
 
 #User diagram
 
-![](assets/User.png)
+![](/assets/User.png)
 
+#Owner discovery diagram
+
+![](/assets/Owner Discovery.png)
