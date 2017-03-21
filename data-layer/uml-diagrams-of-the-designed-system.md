@@ -1,4 +1,5 @@
 # Orgnization diagram
+
 ![](/assets/Organization.png)
 
 # Campaign Diagram
@@ -16,3 +17,15 @@
 #Owner discovery diagram
 
 ![](/assets/Owner Discovery.png)
+
+#Banking diagram
+
+![](/assets/Banking.png)
+
+#Contact diagram
+
+![](assets/Contact.png)
+
+#Banking
+
+![](assets/Banking.png)
