@@ -18,6 +18,7 @@
   * [Create new form](development-issues/create-new-form.md)
     * [Create new React component](development-issues/create-new-form/create-new-react-component.md)
       * [Controls](development-issues/create-new-form/create-new-react-component/controls.md)
+      * [Storybook](development-issues/create-new-form/create-new-react-component/storybook.md)
       * [Simple form on React](development-issues/create-new-form/create-new-react-component/simple-form-on-react.md)
       * [Custom styles](development-issues/create-new-form/create-new-react-component/custom-styles.md)
     * [Add queries](development-issues/create-new-form/add-queries.md)
