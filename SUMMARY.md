@@ -44,7 +44,7 @@
     * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
-  * Login
+  * [Login](charidy-admin-user-guide/login.md)
   * Change language
   * Create organization
   * Edit Organization Profile
