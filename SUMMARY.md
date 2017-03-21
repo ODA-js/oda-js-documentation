@@ -46,7 +46,7 @@
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
   * [Login](charidy-admin-user-guide/login.md)
   * [Change language](charidy-admin-user-guide/change-language.md)
-  * Create organization
+  * [Create organization](charidy-admin-user-guide/create-organization.md)
   * Edit Organization Profile
   * Users
   * Banking and Gateways
