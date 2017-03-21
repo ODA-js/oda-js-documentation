@@ -20,6 +20,7 @@ $ sudo npm i -g typescript
   ```
 
 * **tmux**
+
   ```
   sudo apt-get install tmux
   ```
