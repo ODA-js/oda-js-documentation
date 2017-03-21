@@ -2,6 +2,8 @@
 
 In this section we will describe using of GraphQL.
 
+As far as it is demo server the system user password is `123456`
+
 You can access API viewer here: [http://78.46.70.183:3033](http://78.46.70.183:3033)
 
 It looks like this:
