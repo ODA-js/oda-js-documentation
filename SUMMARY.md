@@ -43,4 +43,15 @@
     * [What is GraphQL?](development-issues/working-with-graphiql/what-is-graphiql.md)
     * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
+* [Charidy Admin User Guide](charidy-admin-user-guide.md)
+  * Login
+  * Change language
+  * Create organization
+  * Edit Organization Profile
+  * Users
+  * Banking and Gateways
+  * Donor-Base Value
+  * Add Bonus Matcher to Campaign
+  * Campaign Visual Editor
+  * Logout
 
