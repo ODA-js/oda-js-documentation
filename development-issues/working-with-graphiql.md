@@ -6,9 +6,13 @@ As far as it is demo server the system user password is `123456`
 
 You can access API viewer here: [http://78.46.70.183:3033](http://78.46.70.183:3033)
 
-It looks like this:
+It looks like this for not authorized users
 
-![](/assets/image1.png)
+![](/assets/graphql-not-authorized.png)
+
+for authorized users
+
+![](/assets/graphql-authorized.png)
 
 To view data, you must first insert API sample in left part, and then click on ![](/assets/image1_1.png) button, and API will be executed.
 
