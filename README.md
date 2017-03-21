@@ -11,9 +11,7 @@ Project Status: `done`.
 [May-needed additions](https://docs.google.com/document/d/1ZA6ktbZ7zzL6tb2SOlsMWkvuBxTdIVKJpiXnQB3YLBY/edit)
 
 <table>
-<tr>
-<td>!!!</td>
-<td>!!!</td>
+<tr> <td>!!!</td> <td>!!!</td>
 </tr>
 <tr>
 <td>!!!</td>
