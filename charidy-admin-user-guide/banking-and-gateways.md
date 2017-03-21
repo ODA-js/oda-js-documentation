@@ -20,6 +20,7 @@ Edit the payment profiles and enable them by the switch like that:
 
 	2) Edit form and click ‘Save changes’ button (or ‘Cancel’ if you don’t want to save changes)
 - **Banking and Gateways - Edit Achisomoch** (System, Admin)
+	
 	1)  Click on ‘**Edit**’ link in the Achisomoch widget 
-![](/assets/charidy-admin-user-guide/image26.png)
+	![](/assets/charidy-admin-user-guide/image26.png)
 	2) Edit form and click ‘Save changes’ button (or ‘Cancel’ if you don’t want to save changes)
