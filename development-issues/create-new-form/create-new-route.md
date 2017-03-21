@@ -56,8 +56,8 @@ export default (
       >
         <Route
           path="ach/edit/:id"
-          components={{ modal: AchEditModal }}
-          queries={{ modal: editViewAch }}
+          components={ { modal: AchEditModal } }
+          queries={ { modal: editViewAch } }
         /> 
       </Route>
     </Route>
