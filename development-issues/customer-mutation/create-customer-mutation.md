@@ -135,6 +135,3 @@ export class CommonExtends extends common.types.GQLModule {
   ];
 }
 ```
-
-
-

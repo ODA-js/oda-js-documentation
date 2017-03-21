@@ -55,3 +55,5 @@
   * [Add Bonus Matcher to Campaign](charidy-admin-user-guide/add-bonus-matcher-to-campaign.md)
   * [Campaign Visual Editor](charidy-admin-user-guide/campaign-visual-editor.md)
   * [Logout](charidy-admin-user-guide/logout.md)
+* [May-needed additions to the Charidy system](may-needed-additions-to-the-charidy-system.md)
+
