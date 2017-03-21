@@ -5,6 +5,7 @@
   * [Microservice](microservice.md)
     * [Network Architecture](microservice/network-architecture.md)
   * [Data layer](data-layer.md)
+    * [UML Diagrams of the designed system](data-layer/uml-diagrams-of-the-designed-system.md)
   * [UI](ui.md)
     * [Storybook](storybook.md)
     * [Editing the data](editing-the-data.md)
