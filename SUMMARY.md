@@ -45,6 +45,8 @@
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
   * [Graphql Documentation generator](development-issues/graphql-documentation-generator.md)
   * [Configuring security of API schema](development-issues/security-configuration/security.md)
+    * [Resolving different user information](development-issues/security-configuration/security/resolving-different-user-information.md)
+    * [Resolving user information](development-issues/security-configuration/security/resolving-user-information.md)
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
   * [Login](charidy-admin-user-guide/login.md)
   * [Change language](charidy-admin-user-guide/change-language.md)
