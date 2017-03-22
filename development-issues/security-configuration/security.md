@@ -1,6 +1,6 @@
 # Configuring security of API schema
 
-## Resolving user information
+## Resolving different user information
 
 There is two kinds of user information that security middleware is need. First is how to get user from the system schema. Second how to determine what information it can access.
 
@@ -15,6 +15,8 @@ Look to `api4/src/app.ts`
 ```
 
 The two library methods `resolveUser` and `resolveOwner` is responsible for getting those two kind of information from the system.
+
+### Resolving user information
 
 For resolving user we make next steps:
 
@@ -112,6 +114,25 @@ The source of `api4/src/model/resolvers/user.ts`
           throw e;
         });
     };
+
+
+
+### Resolving owner information
+
+For resolving owner information we make same steps as for dicovering user information with some specific additions.
+
+To make security check we need know the label of security for specific user.
+
+**Label of Security **is the global id of somthing that owns the data in the system.
+
+In our case it is user.id and organization.id. So to make security check successfull we need to 
+- Detemrime the user status: `system`, `admin`, `owner` of `public` user
+ 
+- return as result list of global object id for each of the next arifacts:
+- user
+- user.owner
+- id for each organization where the user has profile of any kind.
+- if user isAdmin we need to retur also list of ids of user of selected organization.
 
 The source of `api4/src/model/resolvers/owner.ts`
 
