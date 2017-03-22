@@ -26,7 +26,7 @@
     * [Create page](development-issues/create-new-form/create-page.md)
       * [Import section](development-issues/create-new-form/create-page/import-section.md)
       * [Relay Binding section](development-issues/create-new-form/create-page/relay-binding-section.md)
-      * [Export section](development-issues/create-new-form/create-page/export-section.md\)
+      * [Export section](development-issues/create-new-form/create-page/export-section.md)
     * [Create a new route](development-issues/create-new-form/create-new-route.md)
   * [Customer mutation](development-issues/customer-mutation.md)
     * [Create Customer Mutation](development-issues/customer-mutation/create-customer-mutation.md)
