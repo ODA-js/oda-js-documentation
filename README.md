@@ -7,17 +7,5 @@ Here we described the [System Architecture](/system-architecture/system-architec
 
 Project Status: `done`.
 
-[How to use](https://docs.google.com/document/d/1xoQ-oe7_ZOyNL7hnMMER-WvI5LXPP_fsC-_1dhy6GMQ/edit)
-[May-needed additions](https://docs.google.com/document/d/1ZA6ktbZ7zzL6tb2SOlsMWkvuBxTdIVKJpiXnQB3YLBY/edit)
-
-<table>
-<tr>
-<td>!!!</td>
-<td>!!!</td>
-</tr>
-<tr>
-<td>!!!</td>
-<td>!!!</td>
-</tr>
-
-</table>
+[How to use](/charidy-admin-user-guide.md)
+[May-needed additions](/may-needed-additions-to-the-charidy-system.md)
