@@ -313,5 +313,26 @@ generator({
 
 ```
 
+### hooks
 
+The hook tell the system wiich entities and how must be changed.
+
+for example this hook updates all entities fields `createdBy`,`updateBy`,`createdAt`, `updatedAt` with metadata inoformation about acl, that is it only read for `admin`-user profile.
+
+
+```javascript
+export let securityAcl = {
+  name: 'security',
+  'entities.*.fields.[createdBy,updateBy,createdAt, updatedAt].metadata.acl.read': 'admin',
+};
+```
+
+**selectors** 
+
+`*` -  all listed subitems
+
+`[...]` - only listed items
+
+`^[...]` - all except listed items
+ 
 
