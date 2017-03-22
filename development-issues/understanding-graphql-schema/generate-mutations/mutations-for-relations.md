@@ -17,13 +17,10 @@ For example, **Banking** entity relates with **CreditGuard** entity by **hasOne*
 Every mutation has input type and payload type named by the next rules:
 
 - **Input**
-    `name of mutation + Name of entity in singular + Input`
+    `name of mutation + Input`
     
-    For example: `addToBankingHasOneCreditGuard
-Input`.
+    For example: `addToBankingHasOneCreditGuardInput`
 - **Payload**
-    `name of mutation + Name of entity in singular + Payload`
+    `name of mutation + Payload`
 
     For example: `addToBankingHasOneCreditGuardPayload`
-
-
