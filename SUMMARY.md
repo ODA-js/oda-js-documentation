@@ -47,6 +47,7 @@
     * [Generate Mutations](development-issues/understanding-graphql-schema/generate-mutations.md)
       * [Mutations for Entity](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-entity.md)
       * [Mutations for Relation](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-relations.md)
+    * [Queries](development-issues/understanding-graphql-schema/queries.md)
   * [Graphql Documentation generator](development-issues/graphql-documentation-generator.md)
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
   * [Login](charidy-admin-user-guide/login.md)
