@@ -129,10 +129,10 @@ In our case it is user.id and organization.id. So to make security check success
 - Detemrime the user status: `system`, `admin`, `owner` of `public` user
  
 - return as result list of global object id for each of the next arifacts:
-- user
-- user.owner
-- id for each organization where the user has profile of any kind.
-- if user isAdmin we need to retur also list of ids of user of selected organization.
+ - user
+ - user.owner
+ - id for each organization where the user has profile of any kind.
+ - if user isAdmin we need to retur also list of ids of user of selected organization.
 
 The source of `api4/src/model/resolvers/owner.ts`
 
@@ -256,6 +256,61 @@ export const getOwner = (id: string) => {
       throw e;
     });
 };
+```
+
+## Setup security checks
+
+The file `api4/src/model/hooks.ts` is responsible for security setup.
+
+The model infrastructure has hooks-api to make generation-time modifications.
+
+when we genearates the schema we use it like mentioned in `api4/src/generate.ts` and `api4/src/genUml.ts`.
+
+the source of `generate.ts`-flie
+
+```javascript
+import * as  path from 'path';
+import { generator } from '@charidy/graphql-backend-gen';
+import schema from './schema';
+import * as modelHooks from './model/hooks';
+
+generator({
+  // role: 'admin', // public, admin, system
+  hooks: [
+    // entities
+    modelHooks.adapter,
+    modelHooks.userCollectionName,
+    // fields
+    // fix default visibility
+    modelHooks.accessFixEntities,
+
+    modelHooks.defaultVisibility,
+    modelHooks.dictionariesVisibility,
+
+    // secure fields without default
+    modelHooks.securityFields,
+    modelHooks.ownerFields,
+    // metadata
+    modelHooks.securityAcl,
+    modelHooks.ownerAcl,
+
+    // mutations
+    modelHooks.accessFixMutations,
+    modelHooks.defaultMutationAccess,
+    // id is visible by default to all
+    modelHooks.defaultIdVisibility,
+    // user
+    modelHooks.userIsAdmin,
+    modelHooks.userIsSystem,
+  ] as any,
+  pack: schema,
+  rootDir: path.join(__dirname, '../src', 'graphql-gen'),
+  config: {
+    graphql: false,
+    packages: true,
+  },
+});
+
 ```
 
 
