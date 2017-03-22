@@ -4,10 +4,5 @@
 
 The passport-library is configured like this
 
+`passport.init(app, passportLib, resolveUser);`
 
-```
-javascript
-
-passport.init(app, passportLib, resolveUser);
-
-```
