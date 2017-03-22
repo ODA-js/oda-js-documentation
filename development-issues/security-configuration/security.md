@@ -335,4 +335,26 @@ export let securityAcl = {
 
 `^[...]` - all except listed items
  
+**NOTE!!!**
+
+hooks is just json files that can be packed in one line
+
+for example this record `entities.User.fields.name.metatdata.acl.read:'owner'` will be transformed to 
+```
+{
+  entities: {
+    User:{
+      fields:{
+        name:{
+          metadata:{
+            acl:{
+              read:'owner'
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
 
