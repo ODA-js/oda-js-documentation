@@ -38,9 +38,9 @@ export let runtimeMutationAcl = {
 `*` means all not listed items within specified for each king of user schema.
 
 For example:
-the member of `public`-group can execute **ONLY** loginUser mutation.
-the member of  `frs`-group can execute **ONLY** updateUserSetting mutation.
-the member of  `user`-group can execute everything except:
+- the member of `public`-group can execute **ONLY** loginUser mutation.
+- the member of  `frs`-group can execute **ONLY** updateUserSetting mutation.
+- the member of  `user`-group can execute everything except:
   `createOrganization`, `deleteOrganization`, `createOrganizationCustom`, `createUserAddOrganizationProfile` and any mutations that starts with `addTo` or `removeFrom`.
   
 
