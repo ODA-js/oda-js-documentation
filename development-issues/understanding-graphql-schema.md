@@ -1,6 +1,3 @@
 # Understanding GraphQl Schema
 
-The entity name is **singular**.  
-
-
-
+The name of the entity is singular always. If the name of the entity is **plural**, it will be transformed to **singular**.
