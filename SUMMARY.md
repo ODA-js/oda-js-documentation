@@ -43,6 +43,7 @@
     * [What is GraphQL?](development-issues/working-with-graphiql/what-is-graphiql.md)
     * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
     * [Documentation Explorer](development-issues/working-with-graphiql/documentation-explorer.md)
+  * [Understanding GraphQl Schema](development-issues/understanding-graphql-schema.md)
   * [Graphql Documentation generator](development-issues/graphql-documentation-generator.md)
 * [Charidy Admin User Guide](charidy-admin-user-guide.md)
   * [Login](charidy-admin-user-guide/login.md)
