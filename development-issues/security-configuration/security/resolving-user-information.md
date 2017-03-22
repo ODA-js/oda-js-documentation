@@ -10,7 +10,9 @@ For resolving user we make next steps:
 * return this information to the system
 
 The source of `api4/src/model/resolvers/user.ts`
-```
+
+```javascript
+
     import { SystemGraphQL } from '../runQuery';
 
     export const getUser = (id: string) => {
