@@ -358,3 +358,5 @@ for example this record `entities.User.fields.name.metatdata.acl.read:'owner'` w
 }
 ```
 
+**Using this hooks developer can shape model to any structure of model he need.
+**
