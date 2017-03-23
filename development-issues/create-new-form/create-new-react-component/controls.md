@@ -3,7 +3,6 @@
 The controls are placed in `/beAdmin/src/controls` folder. You will need the controls if you want to create the input field, panel, modal window or something else and if you don't want to create them from scratch.  
 It's recommended to use created controls because they are configured, designed, debugged and ready to work.
 
-  
 Before you create your own component for input data, pop-up or a similar functions, make sure that it isn't in `controls` folder.
 
 Include the controls in the parent component with:  
@@ -121,6 +120,8 @@ You can see the examples of using the form controls in the next title of this do
 ---
 
 **Notification**
+
+For using notification - need binding redux notification \(see **Create Page/Relay Binding section** && **Add Global variables**\)
 
 ---
 
