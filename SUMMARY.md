@@ -28,7 +28,7 @@
       * [Relay Binding section](development-issues/create-new-form/create-page/relay-binding-section.md)
       * [Export section](development-issues/create-new-form/create-page/export-section.md)
     * [Create a new route](development-issues/create-new-form/create-new-route.md)
-    * [Add redux variables](development-issues/create-new-form/add-redux-variables.md)
+    * [Add global variables](development-issues/create-new-form/add-redux-variables.md)
   * [Customer mutation](development-issues/customer-mutation.md)
     * [Create Customer Mutation](development-issues/customer-mutation/create-customer-mutation.md)
   * [Schema](development-issues/update-schema.md)
