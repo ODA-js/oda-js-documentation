@@ -137,6 +137,17 @@ export class CommonExtends extends common.types.GQLModule {
   ];
 }
 ```
+In mutation use `connectors` which take from `context`. More info here: https://github.com/apollographql/graphql-tools/blob/master/designs/connectors.md.
+Example connector:
+```javascript
+  public async findOneById(id?: string) {
+    logger.trace(`findOneById with ${id} `);
+    let result = await this.loaders.byId.load(id);
+    return this.ensureId(result ? result.toJSON() : result);
+  }
+```
+
+
 
 
 
