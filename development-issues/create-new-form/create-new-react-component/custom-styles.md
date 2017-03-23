@@ -1,5 +1,7 @@
 # Custom styles
 
+Naming rules see https://en.bem.info/methodology/css/
+
 Use `import 'path/to/file_of_style.scss'` to add custom styles to the component.
 
 If you want to use your own styles in your component:
