@@ -1,4 +1,4 @@
-# Orgnization diagram
+# Organization diagram
 
 ![](/assets/Organization.png)
 
