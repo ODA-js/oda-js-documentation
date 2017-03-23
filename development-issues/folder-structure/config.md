@@ -6,7 +6,7 @@ Node.js module [config](https://www.npmjs.com/package/config) is intended to sto
 
 ## file structure in common
 
-all configudation for file layout is relative to root fol
+all configuration for file layout is relative to root fol
 
 ```json
 {
@@ -73,7 +73,7 @@ In the sample we have several roots. the structure is not strict, but we have to
 - port
 - dev -- development configuration. it is user for UI-Rich sevices
 
-the key of json-object is the configured name of the project? than mentioned in `package.json` of the project.
+Is the key of json-object the configured name of the project? than mentioned in `package.json` of the project.
 
 ```json
 {
