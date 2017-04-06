@@ -117,7 +117,7 @@ You can see the examples of using the form controls in the next title of this do
 
 **Datatable**
 
-![](/assets/112.png)
+![](/assets/114.png)
 
 ---
 
