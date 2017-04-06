@@ -117,6 +117,8 @@ You can see the examples of using the form controls in the next title of this do
 
 **Datatable**
 
+![](/assets/112.png)
+
 ---
 
 **Notification**
@@ -131,4 +133,8 @@ For using notification - need binding redux notification \(see **Create Page/Rel
 ---
 
 **Dropzone images**
+
+![](/assets/113.png)
+
+---
 
