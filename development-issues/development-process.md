@@ -4,7 +4,7 @@
 * `javascript ES2016 +` is the main language for the project
 * `Relay` is the data-layer
 * `React` is the viewing engine
-* `babel.js` is teh transpiler for the javascript
+* `babel.js` is the transpiler for the javascript
 
 ##  Project initialization
 
