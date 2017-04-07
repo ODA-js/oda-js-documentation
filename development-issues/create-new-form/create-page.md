@@ -2,6 +2,7 @@
 
 1. Go to `/beAdmin/src/pages` folder 
 2. Create a new file and name it by the name of the component.
+
    **Note:** You may need to create several files for different functions. Add the function as postfix to the name of your page \(e.g., `user_new` for the creating of a new user, `user_edit` for the editing of an existing user, etc\).
 3. This is the page of your component. It provides the databinding of your component and the main actions with the form.
 
