@@ -37,7 +37,7 @@
       * [Relation](development-issues/update-schema/entities/relation.md)
   * [Data import/export](development-issues/dump-data.md)
     * [Initial](development-issues/dump-data/loaderconfig.md)
-    * [InitialLoad](development-issues/dump-data/queries.md)
+    * [Initial Load](development-issues/dump-data/queries.md)
   * [Generation of UML Diagrams](development-issues/generation-of-uml-diagrams.md)
   * [Run Project](development-issues/run-project.md)
   * [Using GraphQL](development-issues/working-with-graphiql.md)

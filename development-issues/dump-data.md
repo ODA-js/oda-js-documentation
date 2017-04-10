@@ -22,7 +22,7 @@ It asks that
 
 `loaderConfig.ts` file is placed in the same folder. It is the main config file that defines what you want to import/export. \(Learn more about [LoaderConfig](/dump-data/loaderconfig.md)\)
 
-`api4/data/queries` folder contains queries for import/export and used by loaderConfig. \(Learn more about [Queries for LoaderConfig](/dump-data/queries.md)\)
+`api4/data/queries` folder contains queries for import/export and used by loaderConfig. \(Learn more about [Queries for LoaderConfig](./queries.md)\)
 
 * See the result of the data export in the `api4/data/dump1.json` file. 
 * Place the imported data in the `api4/data/dump.json` file. 
