@@ -69,8 +69,8 @@ editForm({
   })
 ```
 
-_GetData_ eliminates unnecessary nesting \(like `edge{node {...}}`\) and form the data for sending to the component.  
-_filterQuery_ describes fields that you want to check on changes. The fields correnponds to the fragments from _CreateContainer\(\)_.
+_GetData_ eliminates unnecessary nesting \(like `edge{node {...}}`\) and forms the data for sending to the component.  
+_filterQuery_ describes fields that you want to check on changes. The fields corresponds to the fragments from _CreateContainer\(\)_.
 
 **3. withHandlers** contains `onSubmit` and `onReset` actions.
 

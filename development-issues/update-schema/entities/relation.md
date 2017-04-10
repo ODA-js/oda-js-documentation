@@ -38,20 +38,20 @@ Consider examples of relations:
 Contact relations with Phone.  
 File _Contact.ts_:
 
-```
+```js
     {
       'name': 'phone',
       'description': 'relation with Phone',
       'relation': {
         'hasOne': 'Phone#contact',
-        'opposite': 'contact' // no required atribute.
+        'opposite': 'contact' // no required attribute. It is name of point from related entity.
       },
     }
 ```
 
 File _Phone.ts_:
 
-```
+```js
     {
       'name': 'contact',
       'indexed': true,

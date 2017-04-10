@@ -1,3 +1,3 @@
-# Editnig the data
+# Editing the data
 
-We've build a common way to edit get and save data from api. It can use anystructured data source that can provide specified JSON format, so the forms canuse different data sources only by switching the data-provider.
+We've build a common way to edit get and save data from api. It can use any structured data source that can provide specified JSON format, so the forms can use different data sources only by switching the data-provider.

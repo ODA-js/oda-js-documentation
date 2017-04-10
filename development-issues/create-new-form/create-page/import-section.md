@@ -22,7 +22,7 @@ In this section you need:
 5. **bindLocale** for localization of your component.  
    `import bindLocale from '../lib/compose/locale'`
 
-6. **editForm** \(or **createForm**\) with the procedures set of editing the form fields, getting and resetting changes.  
+6. **editForm** \(or **createForm**, or **viewForm**\) with the procedures set of editing the form fields, getting and resetting changes.  
    `import editForm   from '../lib/compose/editForm'`
 
 7. **getPath** for the calculation of the previous path when you close/submit the form.  

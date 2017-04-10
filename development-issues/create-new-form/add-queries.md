@@ -94,7 +94,7 @@ It has this sections:
 
 **Note: ** learn more about mutations from [the 'Describe mutations' section](/create-new-form/describe-mutations.md) of this documentation.
 
-* **export** contains named fragments for the description of entity's fields. The query can used in different places of the system and different parts of the entity may be needed. Therefore, there are several named fragments in the query file. For example, the `Create` fragment is used in CreateAch form and so on. 
+* **export** contains named fragments for the description of entity's fields. The query can used in different places of the system and different parts of the entity may be needed. Therefore, there are several named fragments in the query file. For example, the `Create` fragment is used in Create Ach form and so on. 
 
 
 
