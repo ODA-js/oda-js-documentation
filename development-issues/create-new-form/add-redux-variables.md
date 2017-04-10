@@ -1,4 +1,4 @@
-# Create a new route
+# Add global variables
 
 If "global" variables need to add, we can set up it in redux.
 
@@ -61,5 +61,5 @@ const createStore = ()=>
 export default createStore;
 ```
 
-For using on page need bind with relay-page for example **bindLocale** or **bindLiveOrgId **functions on Relay Binding sction
+For using on page need bind with relay-page for example **bindLocale** or **bindLiveOrgId **functions on Relay Binding section.
 

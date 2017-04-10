@@ -63,7 +63,7 @@ Find folder with name of your customer mutation \(`createMediumAddCampaign`\). O
 
 7.Create new file with name:  
 `name your customer mutation + .resolver.ts (for example, createMediumAddCampaign.resolver.ts)`  
-and past copied code. In this file you can also add description of behavior your customer mutation.
+and past copied code. In this file you describes of behavior your customer mutation.
 
 For example, here's customer mutation which create new image for Campaign. For this mutation, we need to create new image and then create relation between new image and Campaign.
 
@@ -88,24 +88,27 @@ export class CreateMediumAddCampaignMutation extends common.types.GQLModule {
       ) => {
         let result: {
           mediumEdge?: any; // Return Medium of Campaign,
-          campaign?: any; // Return Medium of Campaign,
+          campaign?: any; // Return Campaign,
         };
 
         let campaignId = fromGlobalId(args.campaign).id;
 
+        // Find Campaign
         let campaignObj = await context.connectors.Campaign.findOneById(campaignId);
 
-
+        // Create Image
         let medium = await context.connectors.Medium.create({
           type: args.type,
           url: args.url,
         });
-
+        
+        // Create relation between found Campaign and new Image
         await context.connectors.Campaign.addToMedia({
           campaign: campaignId,
           medium: medium.id,
         });
-
+        
+        // Result which return to client
         result = {
           campaign: campaignObj,
           mediumEdge: {
@@ -137,7 +140,7 @@ export class CommonExtends extends common.types.GQLModule {
   ];
 }
 ```
-In mutation use `connectors` which take from `context`. More info here: https://github.com/apollographql/graphql-tools/blob/master/designs/connectors.md.
+In mutation use `connectors` which take from `context`. More info here: [Connectors and models](https://github.com/apollographql/graphql-tools/blob/master/designs/connectors.md).
 Example connector:
 ```javascript
   public async findOneById(id?: string) {

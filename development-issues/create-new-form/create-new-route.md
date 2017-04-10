@@ -4,9 +4,7 @@ If component with databinding is ready, we can set up the path to display it.
 
 The routes of an app are configured by React-Router and placed in the file `/beAdmin/src/routes.js`.
 
-**Note**: learn more about React router: [https://github.com/ReactTraining/react-router](https://github.com/ReactTraining/react-router).
-
-
+**Note**: learn more about React router: [GitHub - ReactTraining/react-router](https://github.com/ReactTraining/react-router).
 
 For adding the new route for the component:
 
