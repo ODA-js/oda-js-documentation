@@ -1,6 +1,6 @@
-#Graphql documentation generator
+#GraphQl documentation generator
 
-To generate documentation from graphql endpoint we use [graphdoc](https://github.com/2fd/graphdoc)
+To generate documentation from graphql end point we use [graphdoc](https://github.com/2fd/graphdoc)
 
 ## install 
 

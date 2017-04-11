@@ -1,4 +1,4 @@
-# Create customer mutation
+# Create custom mutation
 
 1.Go to folder `api4/src/schema/mutations`
 
@@ -57,15 +57,15 @@ npm run compile
 ```
 
 5.Go to folder `api4/src/graphql-gen/system/mutation`  
-Find folder with name of your customer mutation \(`createMediumAddCampaign`\). Open file `resolver.ts` it is template for your customer mutation. **Copy code from this file**.
+Find folder with name of your custom mutation \(`createMediumAddCampaign`\). Open file `resolver.ts` it is template for your custom mutation. **Copy code from this file**.
 
 6.Go to folder `api4/src/model/common/mutations`
 
 7.Create new file with name:  
-`name your customer mutation + .resolver.ts (for example, createMediumAddCampaign.resolver.ts)`  
-and past copied code. In this file you describes of behavior your customer mutation.
+`name your custom mutation + .resolver.ts (for example, createMediumAddCampaign.resolver.ts)`  
+and past copied code. In this file you describes of behavior your custom mutation.
 
-For example, here's customer mutation which create new image for Campaign. For this mutation, we need to create new image and then create relation between new image and Campaign.
+For example, here's custom mutation which create new image for Campaign. For this mutation, we need to create new image and then create relation between new image and Campaign.
 
 ```javascript
 import { mutateAndGetPayload, idToCursor } from '@charidy/graphql-backend-common';
@@ -126,7 +126,7 @@ export class CreateMediumAddCampaignMutation extends common.types.GQLModule {
 
 8.Go to folder `api4/src/model/common`.
 
-9.In file `index.ts` define new customer mutation
+9.In file `index.ts` define new custom mutation
 
 ```javascript
 import { common } from '@charidy/graphql-backend-gen';

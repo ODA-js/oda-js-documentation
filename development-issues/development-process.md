@@ -8,7 +8,7 @@
 
 ##  Project initialization
 
-Project repository is [charidy-server](http://gitlab.pfrus.com/vedmalex/charidy-server).
+Project repository is [platform2-pack](http://gitlab.pfrus.com/vedmalex/platform2-pack.git).
 
 ## Developer environment setup
 
@@ -27,12 +27,19 @@ To use ESlint plugin you need to install it globally:
 npm i -g eslint
 ```
 
-## install project dependency
+## Install project dependency
 
 run in root directory of project
 
 ```
-npm run fullbuild
+npm run private-registry
+npm run npm-attach
+npm run publish
+cd packages/api-sample
+./clean.sh
+npm i (or use - yarn install)
+npm run compile
+npm start
 ```
 
 ## Start working with code
