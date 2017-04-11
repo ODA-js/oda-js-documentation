@@ -66,5 +66,5 @@ mutation assignOrganizationToProfileType($connection:addToOrganizationBelongsToM
 }
 ```
 
-All queries and mutations from this section are described in [Documentation Explorer](/working-with-graphiql/documentation-explorer.md) and can be checked in [GraphQL](/working-with-graphiql.md).
+All queries and mutations from this section are described in [Documentation Explorer](../working-with-graphiql/documentation-explorer.md) and can be checked in [GraphQL](../working-with-graphiql.md).
 
