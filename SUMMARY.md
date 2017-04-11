@@ -2,8 +2,6 @@
 
 * [Overview](README.md)
 * [Development Process](development-issues/development-process.md)
-  * [Add queries](development-issues/add-queries.md)
-  * [Describe mutations](development-issues/describe-mutations.md)
   * [Customer mutation](development-issues/customer-mutation.md)
     * [Create Customer Mutation](development-issues/customer-mutation/create-customer-mutation.md)
   * [Schema](development-issues/update-schema.md)
