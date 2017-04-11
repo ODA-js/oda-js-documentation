@@ -27,7 +27,7 @@ To use ESlint plugin you need to install it globally:
 npm i -g eslint
 ```
 
-## install project dependency
+## Install project dependency
 
 run in root directory of project
 
