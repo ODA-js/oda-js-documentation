@@ -2,8 +2,8 @@
 
 * [Overview](README.md)
 * [Development Process](development-issues/development-process.md)
-  * [Customer mutation](development-issues/customer-mutation.md)
-    * [Create Customer Mutation](development-issues/customer-mutation/create-customer-mutation.md)
+  * [Custom mutation](development-issues/customer-mutation.md)
+    * [Create Custom Mutation](development-issues/customer-mutation/create-customer-mutation.md)
   * [Schema](development-issues/update-schema.md)
     * [Entities](development-issues/update-schema/entities.md)
       * [Field](development-issues/update-schema/entities/fields.md)
