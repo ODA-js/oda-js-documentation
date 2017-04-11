@@ -1,16 +1,6 @@
 # Summary
 
 * [Overview](README.md)
-* [System Architecture](system-architecture/system-architecture.md)
-  * [Microservice architecture](system-architecture/microservice/microservice.md)
-    * [Network Architecture](system-architecture/microservice/network-architecture.md)
-  * [Data layer](system-architecture/data-layer/data-layer.md)
-    * [UML Diagrams of the designed system](system-architecture/data-layer/uml-diagrams-of-the-designed-system.md)
-  * [UI-concepts](system-architecture/ui/ui.md)
-    * [Storybook](system-architecture/ui/storybook.md)
-    * [Editing the data](system-architecture/ui/editing-the-data.md)
-    * [Translation & Localization](system-architecture/ui/translation--localization.md)
-    * [Dictionary](system-architecture/ui/dictionary.md)
 * [Development Process](development-issues/development-process.md)
   * [Folder structure](development-issues/folder-structure.md)
   * [Project layout](development-issues/project-layout.md)
