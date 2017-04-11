@@ -21,12 +21,11 @@
       * [Mutations for Entity](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-entity.md)
       * [Mutations for Relation](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-relations.md)
     * [Queries](development-issues/understanding-graphql-schema/queries.md)
-  * [Graphql Documentation generator](development-issues/graphql-documentation-generator.md)
+  * [GraphQl Documentation generator](development-issues/graphql-documentation-generator.md)
   * [Configuring security of API schema](development-issues/security-configuration/security.md)
     * [Resolving different user information](development-issues/security-configuration/security/resolving-different-user-information.md)
     * [Resolving user information](development-issues/security-configuration/security/resolving-user-information.md)
     * [Resolving owner information](development-issues/security-configuration/security/resolving-owner-information.md)
     * [Setup security checks](development-issues/security-configuration/security/setup-security-checks.md)
     * [Restricting the mutation executation](development-issues/security-configuration/security/restricting-the-mutation-executation.md)
-* [May-needed additions to the Charidy system](may-needed-additions-to-the-charidy-system.md)
 
