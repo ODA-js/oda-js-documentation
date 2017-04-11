@@ -76,7 +76,7 @@ This configuration describes:
 
 * **user** entity with id, firstName, enabled, userName, password, onwer fields
 * **organization** entity with name, id,  owner fields.
-* **Relations** entities. \(Learn more about [Relations](/update-schema.md)\)
+* **Relations** entities. \(Learn more about [Relations](../update-schema.md)\)
 
 The config contains 3 sections.
 
@@ -86,7 +86,7 @@ It describes a structure of the entities that you want to import. It uses the qu
 **FindQuery** finds an entity in a database by id or other unique field. If the entity doesn't exist, **createQuery** creates it, else **updateQuery** updates the found entity by the data from the dump. **findVars** returns the unique value of field which is used in findQuery.
 
 The queries are placed in `api4/data/queries` folder. Every entity has it's own folder with it's own data fragments.  
-**Note**: Learn more about Queries from the [Queries](/dump-data/queries.md) section.
+**Note**: Learn more about Queries from the [Queries](./queries.md) section.
 
 ##### 2. Import, relations section
 

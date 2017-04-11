@@ -14,7 +14,6 @@
     * [Initial](development-issues/dump-data/loaderconfig.md)
     * [Initial Load](development-issues/dump-data/queries.md)
   * [Generation of UML Diagrams](development-issues/generation-of-uml-diagrams.md)
-  * [Run Project](development-issues/run-project.md)
   * [Using GraphQL](development-issues/working-with-graphiql.md)
     * [What is GraphQL?](development-issues/working-with-graphiql/what-is-graphiql.md)
     * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
