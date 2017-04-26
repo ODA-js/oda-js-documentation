@@ -3,7 +3,6 @@
 * `node.js` is the platform for development,
 * [nvm install](https://github.com/creationix/nvm#install-script) to node js instalaltion
 * `nvm install v7; nvm use v7` to install node.js
-* `javascript ES2016 +` is the main language for the project
 
 ## Project initialization
 
@@ -18,7 +17,8 @@ We prefer to use [Visual Studio Code \(VSCode\)](https://code.visualstudio.com/)
 run in root directory of project
 
 ```bash
-cd oda-boilerplates/packages/api-sample
+mkdir new-api-name
+cp -rp oda-boilerplates/packages/api-sample/* new-api-name/
 npm i
 npm run compile
 npm start
