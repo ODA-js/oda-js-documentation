@@ -18,7 +18,6 @@ copy api-sample package to other directory(ubuntu example):
 ```
 mkdir new-api-name
 cp -rp oda-boilerplates/packages/api-sample/* new-api-name/
-
 ```
 
 run in root directory of project
