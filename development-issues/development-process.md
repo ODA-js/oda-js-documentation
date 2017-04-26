@@ -1,8 +1,10 @@
 # Development Environment
 
 * `node.js` is the platform for development,
-* * `javascript ES2016 +` is the main language for the project
-* 
+* [nvm install](https://github.com/creationix/nvm#install-script) to node js instalaltion
+* `nvm install v7; nvm use v7` to install node.js
+* `javascript ES2016 +` is the main language for the project
+
 ## Project initialization
 
 Project repository is [oda-boilerplates](http://gitlab.pfrus.com/vedmalex/oda-boilerplates.git).
@@ -11,30 +13,12 @@ Project repository is [oda-boilerplates](http://gitlab.pfrus.com/vedmalex/oda-bo
 
 We prefer to use [Visual Studio Code \(VSCode\)](https://code.visualstudio.com/). The project contains all settings to the editor. It make the code environmet feel and look the same between different developers.
 
-to use VSCode you need to install next plugins:
-
-* [Babel ES6/ESt7](https://marketplace.visualstudio.com/items?itemName=dzannotti.vscode-babel-coloring)
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-### ESLint
-
-To use ESlint plugin you need to install it globally:
-
-```
-npm i -g eslint
-```
-
 ## Install project dependency
 
 run in root directory of project
 
 ```
-npm run private-registry
-npm run npm-attach
-npm run publish
-cd packages/api-sample
-./clean.sh
-npm i (or use - yarn install)
+npm i
 npm run compile
 npm start
 ```
