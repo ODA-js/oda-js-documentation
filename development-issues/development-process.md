@@ -13,12 +13,17 @@ Project repository is [oda-boilerplates](http://gitlab.pfrus.com/vedmalex/oda-bo
 We prefer to use [Visual Studio Code \(VSCode\)](https://code.visualstudio.com/). The project contains all settings to the editor. It make the code environmet feel and look the same between different developers.
 
 ## Install project dependency
+copy api-sample package to other directory(ubuntu example):
+
+```
+mkdir new-api-name
+cp -rp oda-boilerplates/packages/api-sample/* new-api-name/
+
+```
 
 run in root directory of project
 
 ```bash
-mkdir new-api-name
-cp -rp oda-boilerplates/packages/api-sample/* new-api-name/
 npm i
 npm run compile
 npm start
