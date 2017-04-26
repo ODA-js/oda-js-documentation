@@ -1,18 +1,15 @@
 # Development Environment
 
 * `node.js` is the platform for development,
-* `javascript ES2016 +` is the main language for the project
-* `Relay` is the data-layer
-* `React` is the viewing engine
-* `babel.js` is the transpiler for the javascript
+* * `javascript ES2016 +` is the main language for the project
+* 
+## Project initialization
 
-##  Project initialization
-
-Project repository is [platform2-pack](http://gitlab.pfrus.com/vedmalex/platform2-pack.git).
+Project repository is [oda-boilerplates](http://gitlab.pfrus.com/vedmalex/oda-boilerplates.git).
 
 ## Developer environment setup
 
-We prefer to use [Visual Studio Code (VSCode)](https://code.visualstudio.com/). The project contains all settings to the editor. It make the code environmet feel and look the same between different developers.
+We prefer to use [Visual Studio Code \(VSCode\)](https://code.visualstudio.com/). The project contains all settings to the editor. It make the code environmet feel and look the same between different developers.
 
 to use VSCode you need to install next plugins:
 
@@ -46,10 +43,9 @@ npm start
 
 open terminal in root project and type
 
-```bash 
+```bash
 code .
 ```
-
 
 
 
