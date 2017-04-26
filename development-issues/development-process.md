@@ -17,7 +17,8 @@ We prefer to use [Visual Studio Code \(VSCode\)](https://code.visualstudio.com/)
 
 run in root directory of project
 
-```
+```bash
+cd oda-boilerplates/packages/api-sample
 npm i
 npm run compile
 npm start
