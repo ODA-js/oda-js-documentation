@@ -6,7 +6,7 @@ Diagrams is based on the data schema \(see [Working with schema](/update-schema.
 For example, you want to see the relations of the _Campaign_ entity with an _InviteMatcher_ and it's own _InvitedMatchers_.  
 Generate a UML diagram for 3 entities by the next steps:
 
-1. Open `api4/src/schema/packages` folder. Create packages for the entities:
+1. Open `src/schema/packages` folder. Create packages for the entities:
    * **Campaign.ts**
      ```javascript
      export default {
@@ -84,9 +84,9 @@ Generate a UML diagram for 3 entities by the next steps:
 
 Generated UML diagrams are placed in files:
 
-* `api4/src/graphql-gen/Campaign/schema/schema.puml`
-* `api4/src/graphql-gen/InviteMatcher/schema/schema.puml`
-* `api4/src/graphql-gen/InvitedMatcher/schema/schema.puml` 
+* `src/graphql-gen/Campaign/schema/schema.puml`
+* `src/graphql-gen/InviteMatcher/schema/schema.puml`
+* `src/graphql-gen/InvitedMatcher/schema/schema.puml` 
 
 You can check out any of them, because their packages are equal \(and generated diagrams are equal accordingly\).
 
@@ -153,5 +153,5 @@ You can see the _Preview of the current diagram_ in the right part of window or 
 ![](/assets/Снимок экрана от 2017-03-13 11-35-01.png)
 
 We recommend you to use svg format.   
-If you open VScode from the root directory of the project, output images will be created in `/out/api4/src/graphql-gen/Entity/schema/schema/` folder.
+If you open VScode from the root directory of the project, output images will be created in `/src/graphql-gen/system/schema/` folder.
 

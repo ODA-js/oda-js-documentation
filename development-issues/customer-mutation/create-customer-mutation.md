@@ -1,6 +1,6 @@
 # Create custom mutation
 
-1.Go to folder `api4/src/schema/mutations`
+1.Go to folder `src/schema/mutations`
 
 2.Create a new file with description of the mutation.
 
@@ -39,7 +39,7 @@ export default {
 };
 ```
 
-3.In file `index.ts` define new Mutation:
+3.In file `src/schema/mutations/index.ts` define new Mutation:
 
 ```javascript
 import createMediumAddCampaign from './createMediumAddCampaign';
@@ -49,17 +49,16 @@ export default [
 ];
 ```
 
-4.In terminal go to folder **api4** of your project and generate schema of project:
+4.Run for generate mutation:
 
 ```
-cd path_to_your_project/api4
 npm run compile
 ```
 
-5.Go to folder `api4/src/graphql-gen/system/mutation`  
+5.Go to folder `src/graphql-gen/system/mutation`  
 Find folder with name of your custom mutation \(`createMediumAddCampaign`\). Open file `resolver.ts` it is template for your custom mutation. **Copy code from this file**.
 
-6.Go to folder `api4/src/model/common/mutations`
+6.Go to folder `src/model/common/mutations`
 
 7.Create new file with name:  
 `name your custom mutation + .resolver.ts (for example, createMediumAddCampaign.resolver.ts)`  
@@ -124,7 +123,7 @@ export class CreateMediumAddCampaignMutation extends common.types.GQLModule {
 }
 ```
 
-8.Go to folder `api4/src/model/common`.
+8.Go to folder `src/model/common`.
 
 9.In file `index.ts` define new custom mutation
 

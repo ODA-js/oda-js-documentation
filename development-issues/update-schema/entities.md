@@ -5,7 +5,7 @@ Entity describes fields of object and relations between object and another objec
 
 **For example: **describe object City and relation City with Country.
 
-1. Go to folder `api4/src/schema`;
+1. Go to folder `src/schema`;
 2. Create a new file with  extension _.ts_  - `City.ts`;
 
 **Note:** File must be named by next rules:
