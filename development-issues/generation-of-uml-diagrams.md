@@ -79,8 +79,8 @@ Generate a UML diagram for 3 entities by the next steps:
        'InvitedMatcher',
      ]
    ```
-4. Run `npm run compile` command from api4
-5. Run `npm run gemUml` command from api4
+4. Run `npm run compile` command
+5. Run `npm run gemUml` command
 
 Generated UML diagrams are placed in files:
 
