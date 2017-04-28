@@ -4,8 +4,8 @@ Data Model of your application describes in folder `src/schema`.
 Structure of folder **schema**:
 
 * **entities** - folder where structure of data is described.
-* **mutations** - folder where [Custome Mutations](development-issues/customer-mutation.md) are described.
-* **packages** - folder where structure for [Generate UML Diagrams](./generation-of-uml-diagrams.md) is described.
+* **mutations** - folder where [Custome Mutations](../customer-mutation.md) are described.
+* **packages** - folder where structure for [Generate UML Diagrams](../generation-of-uml-diagrams.md) is described.
 
 # Entities
 
