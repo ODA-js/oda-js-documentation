@@ -65,8 +65,12 @@ Field have next atributes:
 * **name** - string, **required** attribute. Doesn't contain spaces or other special characters and start with a lowercase letter.
 It contain name of entity.
 * **description** - string, it contain description of entity;
-* **fields** - object or array[object], default value is _string_. Types supported by project:
-
+* **fields** - object, It contaian:
+    {
+      <name>: {
+        type: 'Date',
+      },
+    }
 Field have next atributes:
 
 * **name** - string, **required** attribute. Doesn't contain spaces or other special characters and start with a lowercase letter.
@@ -76,6 +80,7 @@ Field have next atributes:
 1\) string;  
 2\) boolean;  
 3\) number;
+4\) Date;
 
 * **required** - boolean, default value _false_;
 * **indexed** - boolean, default value _false_;
