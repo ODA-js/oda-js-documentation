@@ -67,7 +67,7 @@ It contain name of entity.
 * **description** - string, it contain description of entity;
 * **fields** - object, It contaian:
 
-        {
+        fields: {
           ...
           <name>: {
             type: 'Date',
@@ -75,7 +75,7 @@ It contain name of entity.
             required: <true/flase>,
             indexed: <true/flase>,
             identity: <true/flase>,
-            relation: <Relation description>
+            relation: <Relation description>,
           },
           ...
         }
