@@ -2,20 +2,16 @@
 
 * [Overview](README.md)
 * [Getting start](development-issues/development-process.md)
-  * &lt;&lt;&lt;
+  * [Quick install guide](development-issues/quick-install-guide.md)
   * [Write fisrt ODA app](development-issues/write-fisrt-oda-app.md)
     * [&lt;&lt;&lt;](development-issues/write-fisrt-oda-app/test.md)
     * [Creating project](development-issues/write-fisrt-oda-app/creating-project.md)
     * [Creating schema](development-issues/write-fisrt-oda-app/creating-schema.md)
     * [More about relations](development-issues/write-fisrt-oda-app/more-about-relations.md)
     * [Start application!](development-issues/write-fisrt-oda-app/start-application.md)
+    * Write simple web-client
     * [&gt;&gt;&gt;](development-issues/write-fisrt-oda-app/.md)
-    * [Schema](development-issues/update-schema.md)
-    * [Entities](development-issues/update-schema/entities.md)
-      * [Field](development-issues/update-schema/entities/fields.md)
-      * [Relation](development-issues/update-schema/entities/relation.md)
-  * [Watch is GraphQL](watch-is-graphql.md)
-    * &lt;&lt;&lt;
+  * [GraphQL](watch-is-graphql.md)
     * [Using GraphQL](development-issues/working-with-graphiql.md)
       * [What is GraphQL?](development-issues/working-with-graphiql/what-is-graphiql.md)
       * [Examples of API queries](development-issues/working-with-graphiql/examples-of-api-queries.md)
@@ -25,13 +21,11 @@
         * [Mutations for Entity](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-entity.md)
         * [Mutations for Relation](development-issues/understanding-graphql-schema/generate-mutations/mutations-for-relations.md)
       * [Queries](development-issues/understanding-graphql-schema/queries.md)
-    * &gt;&gt;&gt;
   * [Advanced](advanced.md)
-    * &lt;&lt;&lt;
     * [Data import/export](development-issues/dump-data.md)
       * [Initial](development-issues/dump-data/loaderconfig.md)
       * [Initial Load](development-issues/dump-data/queries.md)
-    * [Custom mutation](development-issues/customer-mutation.md)
+    * [Customer mutation](development-issues/customer-mutation.md)
       * [Create Custom Mutation](development-issues/customer-mutation/create-customer-mutation.md)
     * [Configuring security of API schema](development-issues/security-configuration/security.md)
       * [Resolving different user information](development-issues/security-configuration/security/resolving-different-user-information.md)
@@ -41,6 +35,4 @@
       * [Restricting the mutation executation](development-issues/security-configuration/security/restricting-the-mutation-executation.md)
     * [GraphQl Documentation generator](development-issues/graphql-documentation-generator.md)
     * [Generation of UML Diagrams](development-issues/generation-of-uml-diagrams.md)
-    * &gt;&gt;&gt;
-  * &gt;&gt;&gt;
 

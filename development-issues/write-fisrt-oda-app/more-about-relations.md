@@ -1,5 +1,15 @@
 # Relation
 
+olololo
+```js
+    ...
+      relation: {
+        belongsToMany: 'StudentsGroup#',
+        using: 'StudentsGroupSubject#',
+      },  
+    ...
+```
+
 Type of relations:
 
 * **1 : 1**
@@ -30,8 +40,6 @@ All descriptions you can find by link [One-To-Many Associations](http://docs.seq
 | nameEntity1\#identity field | nameEntity2\#identity field |
 
 All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
-
-
 
 Consider examples of relations:  
 **1\)  1 : 1**  
