@@ -45,8 +45,8 @@ Description points of relation.
 
 | Entity 1 | Entity 2 |
 | --- | --- |
-| hasOne | belongsTo |
-| nameEntity1\#indexed field | nameEntity2\#identity field |
+| `hasOne: 'nameEntity2'#'indexedFieldEntity2'`| `belongsTo: 'nameEntity1'#indexedFieldEntity1` |
+|  | `oposite: 'indexedFieldEntity1'` |
 
 All descriptions you can find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
 
