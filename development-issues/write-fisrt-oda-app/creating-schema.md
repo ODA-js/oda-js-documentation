@@ -1,11 +1,11 @@
 # Schema
 
-Data Model of your application describes in folder `src/schema`.  
+Data Model of your application describes in folder `src/schema/entities`.  
 Structure of folder **schema**:
 
 * **entities** - folder where structure of data is described.
-* **mutations** - folder where [Customer Mutations](../customer-mutation.md) are described.
-* **packages** - folder where structure for [Generate UML Diagrams](../generation-of-uml-diagrams.md) is described.
+* **mutations** - folder where *Customer Mutations* are described.
+* **packages** - folder where structure for Generate *UML Diagrams*
 
 # Entities
 
@@ -14,7 +14,7 @@ Entity describes fields of object and relations between object and another objec
 
 **For example: **describe object City and relation City with Country.
 
-1. Go to folder `src/schema`;
+1. Go to folder `src/schema/entities`;
 2. Create a new file with  extension _.ts_  - `Stutent.ts`;
 
 **Note:** File must be named by next rules:
