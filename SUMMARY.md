@@ -9,7 +9,7 @@
     * [Creating schema](development-issues/write-fisrt-oda-app/creating-schema.md)
     * [More about relations](development-issues/write-fisrt-oda-app/more-about-relations.md)
     * [Start application!](development-issues/write-fisrt-oda-app/start-application.md)
-    * Write simple web-client
+    * [Write simple web-client](development-issues/write-fisrt-oda-app/write-simple-web-client.md)
     * [&gt;&gt;&gt;](development-issues/write-fisrt-oda-app/.md)
   * [GraphQL](watch-is-graphql.md)
     * [Using GraphQL](development-issues/working-with-graphiql.md)
