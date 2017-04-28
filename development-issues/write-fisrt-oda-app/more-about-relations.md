@@ -22,9 +22,22 @@ Relation section can contain:
 
   * **hasOne** or **hasMany**(*Source* relation) or **belongsTo** or **belongsToMany**(*Target* relation) - type of relation
   * **oposite** - use only with *Target* relation. It conain name of field in *Source* relation's entity where it relation can be find.
+  * **using** - use only for many-to-many relations. It contain: 
 
+    ```js
+      using: 'TableBundleName#fieldName'
+    ```
 
-Type of relations:
+ 1) `'TableBundleName'` - name of table bundle. It entity can be create manualy or ODA create it automaticaly
+ 2) `'fieldName'` - name of field that use for bind. By default `'id'` for example:
+
+     ```js
+       using: 'TableBundleName#'
+     ```
+  
+# Type of relations:
+
+ODA use **one-to-one**(1 : 1), **one-to-many**(1 : n) and **many-to-many**(m : n) relations
 
 * **1 : 1**
 
