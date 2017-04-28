@@ -15,7 +15,7 @@ Entity describes fields of object and relations between object and another objec
 **For example: **describe object City and relation City with Country.
 
 1. Go to folder `src/schema/entities`;
-2. Create a new file with  extension _.ts_  - `Stutent.ts`;
+2. Create a new file with extension _.ts_ Let see for example already creating `Stutent.ts`;
 
 **Note:** File must be named by next rules:
 
