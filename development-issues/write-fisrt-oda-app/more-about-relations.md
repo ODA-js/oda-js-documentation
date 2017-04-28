@@ -25,21 +25,21 @@ Relation section can contain:
   * **using** - use only for many-to-many relations. It contain: 
 
     ```js
-      using: 'TableBundleName#fieldName'
+      using: 'NameTableBundle#fieldName'
     ```
 
- 1) `'TableBundleName'` - name of table bundle. It entity can be create manualy or ODA create it automaticaly
+ 1) `'NameTableBundle'` - name of table bundle. It entity can be create manualy or ODA create it automaticaly
  2) `'fieldName'` - name of field that use for bind. By default `'id'` for example:
 
      ```js
-       using: 'TableBundleName#'
+       using: 'NameTableBundle#'
      ```
   
 # Type of relations:
 
 ODA use **one-to-one**(1 : 1), **one-to-many**(1 : n) and **many-to-many**(m : n) relations
 
-* **Relation one-to-one(1 : 1)**
+# Relation one-to-one(1 : 1)
 
 Description points of relation.
 
@@ -80,26 +80,13 @@ File _StudentProfile.ts_:
 
 All descriptions you can find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
 
-* **1 : n**
+# Relation one-to-many(1 : n)
 
 | Entity 1 | Entity 2 |
 | --- | --- |
-| hasMany | belongsTo |
-| nameEntity1\#indexed field | nameEntity2\#identity field |
+| `hasMany: 'nameEntity2'#'indexedFieldEntity2'` | `belongsTo: 'nameEntity1'#'indexedFieldEntity1'` |
+|  | `oposite: 'indexedFieldEntity1` |
 
-All descriptions you can find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
-
-* **m : n**
-
-| Entity 1 | Entity 2 |
-| --- | --- |
-| belongsToMany | belongsToMany |
-| nameEntity1\#identity field | nameEntity2\#identity field |
-
-All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
-
-
-**2\)  1 : n**  
 StudentsGroup has many Students. Student belongs to one StudentsGroup.  
 File _StudentsGroup.ts_:
 
@@ -127,6 +114,23 @@ File _Student.ts_:
     },
     ...
 ```
+
+All descriptions you can find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
+
+
+# Relation one-to-many(m : n)
+
+| Entity 1 | Entity 2 |
+| --- | --- |
+| `hasMany: 'nameEntity2'#'indexedFieldEntity2'` | `belongsToMany: 'nameEntity2'#'indexedFieldEntity2'` |
+| `using: 'nameEntity2'#'indexedFieldEntity2'` | `belongsToMany: 'nameEntity2'#'indexedFieldEntity2'` |
+|  | `oposite: 'indexedFieldEntity1` |
+
+All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
+
+
+**2\)  1 : n**  
+
 
 **3\)  m : n**  
 StudentsGroup relations with Subjects.  
