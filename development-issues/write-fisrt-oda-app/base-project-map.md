@@ -14,7 +14,9 @@ The main files is:
       entities/
       mutations/
       packages/
+    ...
   package.json
+  ...
 ```
 
 `package.json` - main project config file
