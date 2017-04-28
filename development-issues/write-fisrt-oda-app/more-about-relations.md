@@ -39,7 +39,7 @@ Relation section can contain:
 
 ODA use **one-to-one**(1 : 1), **one-to-many**(1 : n) and **many-to-many**(m : n) relations
 
-* **1 : 1**
+* **Relation one-to-one(1 : 1)**
 
 Description points of relation.
 
@@ -48,28 +48,7 @@ Description points of relation.
 | `hasOne: 'nameEntity2'#'indexedFieldEntity2'`| `belongsTo: 'nameEntity1'#indexedFieldEntity1` |
 |  | `oposite: 'indexedFieldEntity1'` |
 
-All descriptions you can find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
-
-* **1 : n**
-
-| Entity 1 | Entity 2 |
-| --- | --- |
-| hasMany | belongsTo |
-| nameEntity1\#indexed field | nameEntity2\#identity field |
-
-All descriptions you can find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
-
-* **m : n**
-
-| Entity 1 | Entity 2 |
-| --- | --- |
-| belongsToMany | belongsToMany |
-| nameEntity1\#identity field | nameEntity2\#identity field |
-
-All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
-
-Consider examples of relations:  
-**1\)  1 : 1**  
+***Example***: 
 Student relations with StudentProfile.  
 File _Student.ts_:
 
@@ -97,6 +76,28 @@ File _StudentProfile.ts_:
     },
     ...
 ```
+
+
+All descriptions you can find by link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
+
+* **1 : n**
+
+| Entity 1 | Entity 2 |
+| --- | --- |
+| hasMany | belongsTo |
+| nameEntity1\#indexed field | nameEntity2\#identity field |
+
+All descriptions you can find by link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
+
+* **m : n**
+
+| Entity 1 | Entity 2 |
+| --- | --- |
+| belongsToMany | belongsToMany |
+| nameEntity1\#identity field | nameEntity2\#identity field |
+
+All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
+
 
 **2\)  1 : n**  
 StudentsGroup has many Students. Student belongs to one StudentsGroup.  
