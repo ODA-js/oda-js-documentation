@@ -5,7 +5,7 @@
   * [Quick install guide](development-issues/quick-install-guide.md)
   * [Write fisrt ODA app](development-issues/write-fisrt-oda-app.md)
     * [Creating project](development-issues/write-fisrt-oda-app/creating-project.md)
-    * Base project map
+    * [Base project map](development-issues/write-fisrt-oda-app/base-project-map.md)
     * [Creating schema](development-issues/write-fisrt-oda-app/creating-schema.md)
     * [More about relations](development-issues/write-fisrt-oda-app/more-about-relations.md)
     * [Start application!](development-issues/write-fisrt-oda-app/start-application.md)
