@@ -56,6 +56,23 @@ sudo mongod
 **Note:** If you get an error “shutting down with code 100”, open your root folder - cd / - and then create required folder - sudo mkdir data/db
 **Note:** For **OSX**, **MongoDB** should be running every time. On **Linux**, **MongoDB** is running automatically, after system reboot.
 
+# Install ODA
+
+Open another terminal window.
+
+Install **typescript** (variation of javascript, needed for working with typescript files):
+
+```bash
+npm install -g typescript
+```
+
+Install **Yeoman** and **generator-oda-api-simple** using npm in terminal:
+
+```bash
+sudo npm install -g yo
+sudo npm install -g generator-oda-api-simple
+```
+
 # Install developer environment
 * **VSCode** (Visual Studio Code).
 
