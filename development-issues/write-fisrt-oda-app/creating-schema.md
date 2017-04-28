@@ -23,7 +23,7 @@ Entity describes fields of object and relations between object and another objec
 * start with a capital letter. 
 
 3.Describe fields and relations of entity object:
-
+```js
     export default {
       name: 'Student',
       fields: {
@@ -55,7 +55,7 @@ Entity describes fields of object and relations between object and another objec
         },
       },
     };
-  
+  ```
 
 
 # Fields of Entity
@@ -66,28 +66,31 @@ Field have next atributes:
 It contain name of entity.
 * **description** - string, it contain description of entity;
 * **fields** - object, It contaian:
-
-        fields: {
-          ...
-          <name>: {
-            type: 'Date',
-            description: 'description put here',
-            required: true,
-            indexed: true,
-            identity: true,
-            relation: <Relation description...>,
-          },
-          ...
-        }
+    ```js
+    fields: {
+      ...
+      <name>: {
+        type: 'Date',
+        description: 'description put here',
+        required: true,
+        indexed: true,
+        identity: true,
+        relation: <Relation description...>,
+      },
+      ...
+    }
+    ```
             
      1) <**name**> - string, **required** attribute. Doesn't contain spaces or other special characters and start with a lowercase letter.
      2) **description** - string, any text;
      3) **type** - string, default value is _string_. Types supported by project:
 
-        string  
-        boolean
-        number
-        Date
+    ```
+    string  
+    boolean
+    number
+    Date
+    ```
   
     4) **required** - boolean, default value _false_;
     4) **indexed** - boolean, default value _false_;
