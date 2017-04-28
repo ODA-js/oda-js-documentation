@@ -25,11 +25,12 @@ Relation section can contain:
   * **using** - use only for many-to-many relations. It contain: 
 
     ```js
-      using: 'NameTableBundle#fieldName'
+      using: 'NameTableBundle#idFieldName'
     ```
 
- 1) `'NameTableBundle'` - name of table bundle. It entity can be create manualy or ODA create it automaticaly
- 2) `'fieldName'` - name of field that use for bind. By default `'id'` for example:
+ 1) `<NameTableBundle>` - name of table bundle. It entity can be create manualy or ODA create it automaticaly
+ 2) `<idFieldName>` - name of id that use for bind or empty.
+**Note**: By default `<idfieldName>` is `'id'`. Leave the field empty:
 
      ```js
        using: 'NameTableBundle#'
@@ -45,8 +46,8 @@ Description points of relation.
 
 | Entity 1 | Entity 2 |
 | --- | --- |
-| `hasOne: 'nameEntity2'#'indexedFieldEntity2'`| `belongsTo: 'nameEntity1'#indexedFieldEntity1` |
-|  | `oposite: 'indexedFieldEntity1'` |
+| `hasOne: <NameEntity2>#<idFieldEntity2>`| `belongsTo: <NameEntity1>#<idFieldEntity1>` |
+|  | `oposite: <indexedFieldEntity1>` |
 
 ***Example***: 
 Student relations with StudentProfile.  
@@ -84,8 +85,8 @@ All descriptions you can find by link [One-To-One Associations](http://docs.sequ
 
 | Entity 1 | Entity 2 |
 | --- | --- |
-| `hasMany: 'nameEntity2'#'indexedFieldEntity2'` | `belongsTo: 'nameEntity1'#'indexedFieldEntity1'` |
-|  | `oposite: 'indexedFieldEntity1` |
+| `hasMany: <NameEntity2>#<idFieldEntity2>` | `belongsTo: <NameEntity1>#<idFieldEntity1>` |
+|  | `oposite: <indexedFieldEntity1>` |
 
 StudentsGroup has many Students. Student belongs to one StudentsGroup.  
 File _StudentsGroup.ts_:
@@ -122,17 +123,10 @@ All descriptions you can find by link [One-To-Many Associations](http://docs.seq
 
 | Entity 1 | Entity 2 |
 | --- | --- |
-| `hasMany: 'nameEntity2'#'indexedFieldEntity2'` | `belongsToMany: 'nameEntity2'#'indexedFieldEntity2'` |
-| `using: 'nameEntity2'#'indexedFieldEntity2'` | `belongsToMany: 'nameEntity2'#'indexedFieldEntity2'` |
-|  | `oposite: 'indexedFieldEntity1` |
+| `hasMany: <NameEntity2>#<idFieldEntity2>` | `belongsToMany: <NameEntity1>#<idFieldEntity1>` |
+| `using: <NameTableBundle>#<idFieldEntity1>` | `using: <NameTableBundle>#<idFieldEntity2>` |
+|  | `oposite: <indexedFieldEntity1>` |
 
-All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
-
-
-**2\)  1 : n**  
-
-
-**3\)  m : n**  
 StudentsGroup relations with Subjects.  
 File _StudentsGroup.ts_:
 
@@ -163,5 +157,6 @@ File _Subject.ts_:
     ...
 ```
 
+All descriptions you can find by link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
 
 
