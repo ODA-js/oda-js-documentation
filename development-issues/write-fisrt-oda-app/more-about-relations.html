@@ -1,0 +1,522 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>More about relations · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="start-application.html" />
+    
+    
+    <link rel="prev" href="creating-schema.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../development-process.html">
+            
+                <a href="../development-process.html">
+            
+                    
+                    Getting start
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../quick-install-guide.html">
+            
+                <a href="../quick-install-guide.html">
+            
+                    
+                    Quick install guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../write-fisrt-oda-app.html">
+            
+                <a href="../write-fisrt-oda-app.html">
+            
+                    
+                    Write fisrt ODA app
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="creating-project.html">
+            
+                <a href="creating-project.html">
+            
+                    
+                    Creating project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="base-project-map.html">
+            
+                <a href="base-project-map.html">
+            
+                    
+                    Base project map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.3" data-path="creating-schema.html">
+            
+                <a href="creating-schema.html">
+            
+                    
+                    Creating schema
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2.4" data-path="more-about-relations.html">
+            
+                <a href="more-about-relations.html">
+            
+                    
+                    More about relations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="start-application.html">
+            
+                <a href="start-application.html">
+            
+                    
+                    Start application!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="write-simple-web-client.html">
+            
+                <a href="write-simple-web-client.html">
+            
+                    
+                    Write simple web-client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >More about relations</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="relation">Relation</h1>
+<p>Example <strong>relation</strong> field.
+<strong>Note</strong>:</p>
+<ul>
+<li><em>Source</em> relation - it mean relation <strong>Master</strong> model</li>
+<li><em>Target</em> relation - it mean relation <strong>Slave</strong> model</li>
+</ul>
+<pre><code class="lang-js">    ...
+      profile: {
+        indexed: <span class="hljs-literal">true</span>,
+        relation: {
+          hasOne: <span class="hljs-string">&apos;StudentProfile#&apos;</span>,
+        },
+      },
+    ...
+</code></pre>
+<p><strong>Noote</strong>: field with relation section should contain flag <code>indexed: true</code>.</p>
+<p>Relation section can contain:</p>
+<ul>
+<li><strong>hasOne</strong> or <strong>hasMany</strong>(<em>Source</em> relation) or <strong>belongsTo</strong> or <strong>belongsToMany</strong>(<em>Target</em> relation) - type of relation</li>
+<li><strong>oposite</strong> - use only with <em>Target</em> relation. It conain name of field in <em>Source</em> relation&apos;s entity where it relation can be find.</li>
+<li><p><strong>using</strong> - use only for many-to-many relations. It contain: </p>
+<pre><code class="lang-js">  using: <span class="hljs-string">&apos;NameTableBundle#idFieldName&apos;</span>
+</code></pre>
+<p>1) <code>&lt;NameTableBundle&gt;</code> - name of table bundle. It entity can be create manualy or ODA create it automaticaly
+2) <code>&lt;idFieldName&gt;</code> - name of id that use for bind or empty.
+<strong>Note</strong>: By default <code>&lt;idfieldName&gt;</code> is <code>&apos;id&apos;</code>. Leave the field empty:</p>
+<pre><code class="lang-js">   using: <span class="hljs-string">&apos;NameTableBundle#&apos;</span>
+</code></pre>
+</li>
+</ul>
+<h1 id="type-of-relations">Type of relations:</h1>
+<p>ODA use <strong>one-to-one</strong>(1 : 1), <strong>one-to-many</strong>(1 : n) and <strong>many-to-many</strong>(m : n) relations</p>
+<h1 id="relation-one-to-one1--1">Relation one-to-one(1 : 1)</h1>
+<p>Description points of relation.</p>
+<table>
+<thead>
+<tr>
+<th>Entity 1</th>
+<th>Entity 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hasOne: &lt;NameEntity2&gt;#&lt;idFieldEntity2&gt;</code></td>
+<td><code>belongsTo: &lt;NameEntity1&gt;#&lt;idFieldEntity1&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>oposite: &lt;indexedFieldEntity1&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Example</em></strong>: 
+Student relations with StudentProfile.<br>File <em>Student.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    profile: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        hasOne: <span class="hljs-string">&apos;StudentProfile#&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>File <em>StudentProfile.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    student: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        belongsTo: <span class="hljs-string">&apos;Student#&apos;</span>,
+        opposite: <span class="hljs-string">&apos;profile&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>All descriptions you can find by link <a href="http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations" target="_blank">One-To-One Associations</a></p>
+<h1 id="relation-one-to-many1--n">Relation one-to-many(1 : n)</h1>
+<table>
+<thead>
+<tr>
+<th>Entity 1</th>
+<th>Entity 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hasMany: &lt;NameEntity2&gt;#&lt;idFieldEntity2&gt;</code></td>
+<td><code>belongsTo: &lt;NameEntity1&gt;#&lt;idFieldEntity1&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>oposite: &lt;indexedFieldEntity1&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p>StudentsGroup has many Students. Student belongs to one StudentsGroup.<br>File <em>StudentsGroup.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    students: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        hasMany: <span class="hljs-string">&apos;Student#&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>File <em>Student.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    group: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        belongsTo: <span class="hljs-string">&apos;StudentsGroup#&apos;</span>,
+        opposite: <span class="hljs-string">&apos;students&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>All descriptions you can find by link <a href="http://docs.sequelizejs.com/en/v3/docs/associations/#1m" target="_blank">One-To-Many Associations</a></p>
+<h1 id="relation-one-to-manym--n">Relation one-to-many(m : n)</h1>
+<table>
+<thead>
+<tr>
+<th>Entity 1</th>
+<th>Entity 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>hasMany: &lt;NameEntity2&gt;#&lt;idFieldEntity2&gt;</code></td>
+<td><code>belongsToMany: &lt;NameEntity1&gt;#&lt;idFieldEntity1&gt;</code></td>
+</tr>
+<tr>
+<td><code>using: &lt;NameTableBundle&gt;#&lt;idFieldEntity1&gt;</code></td>
+<td><code>using: &lt;NameTableBundle&gt;#&lt;idFieldEntity2&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td><code>oposite: &lt;indexedFieldEntity1&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p>StudentsGroup relations with Subjects.<br>File <em>StudentsGroup.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    subjects: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        belongsToMany: <span class="hljs-string">&apos;Subject#&apos;</span>,
+        using: <span class="hljs-string">&apos;StudentsGroupSubject#&apos;</span>,
+        opposite: <span class="hljs-string">&apos;groups&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>File <em>Subject.ts</em>:</p>
+<pre><code class="lang-js">    ...
+    groups: {
+      indexed: <span class="hljs-literal">true</span>,
+      relation: {
+        belongsToMany: <span class="hljs-string">&apos;StudentsGroup#&apos;</span>,
+        using: <span class="hljs-string">&apos;StudentsGroupSubject#&apos;</span>,
+      },
+    },
+    ...
+</code></pre>
+<p>All descriptions you can find by link <a href="http://docs.sequelizejs.com/en/v3/docs/associations/#nm" target="_blank">Many-To-Many Associations</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="creating-schema.html" class="navigation navigation-prev " aria-label="Previous page: Creating schema">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="start-application.html" class="navigation navigation-next " aria-label="Next page: Start application!">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"More about relations","level":"1.2.2.4","depth":3,"next":{"title":"Start application!","level":"1.2.2.5","depth":3,"path":"development-issues/write-fisrt-oda-app/start-application.md","ref":"development-issues/write-fisrt-oda-app/start-application.md","articles":[]},"previous":{"title":"Creating schema","level":"1.2.2.3","depth":3,"path":"development-issues/write-fisrt-oda-app/creating-schema.md","ref":"development-issues/write-fisrt-oda-app/creating-schema.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"development-issues/write-fisrt-oda-app/more-about-relations.md","mtime":"2017-04-28T14:53:11.109Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-28T14:57:30.627Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

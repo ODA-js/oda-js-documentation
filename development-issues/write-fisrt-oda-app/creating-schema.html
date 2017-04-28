@@ -1,0 +1,438 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Creating schema · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="more-about-relations.html" />
+    
+    
+    <link rel="prev" href="base-project-map.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../development-process.html">
+            
+                <a href="../development-process.html">
+            
+                    
+                    Getting start
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../quick-install-guide.html">
+            
+                <a href="../quick-install-guide.html">
+            
+                    
+                    Quick install guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../write-fisrt-oda-app.html">
+            
+                <a href="../write-fisrt-oda-app.html">
+            
+                    
+                    Write fisrt ODA app
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.2.1" data-path="creating-project.html">
+            
+                <a href="creating-project.html">
+            
+                    
+                    Creating project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.2" data-path="base-project-map.html">
+            
+                <a href="base-project-map.html">
+            
+                    
+                    Base project map
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2.3" data-path="creating-schema.html">
+            
+                <a href="creating-schema.html">
+            
+                    
+                    Creating schema
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.4" data-path="more-about-relations.html">
+            
+                <a href="more-about-relations.html">
+            
+                    
+                    More about relations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.5" data-path="start-application.html">
+            
+                <a href="start-application.html">
+            
+                    
+                    Start application!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2.6" data-path="write-simple-web-client.html">
+            
+                <a href="write-simple-web-client.html">
+            
+                    
+                    Write simple web-client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Creating schema</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="schema">Schema</h1>
+<p>Data Model of your application describes in folder <code>src/schema/entities</code>.<br>Structure of folder <strong>schema</strong>:</p>
+<ul>
+<li><strong>entities</strong> - folder where structure of data is described.</li>
+<li><strong>mutations</strong> - folder where <em>Customer Mutations</em> are described.</li>
+<li><strong>packages</strong> - folder where structure for Generate <em>UML Diagrams</em></li>
+</ul>
+<h1 id="entities">Entities</h1>
+<p>Before create <strong>entities</strong> your need to build <strong>Data Model</strong>. Each object of your Data Model is an <strong>entity</strong>.<br>Entity describes fields of object and relations between object and another object of model.</p>
+<p><strong>For example: </strong>describe object City and relation City with Country.</p>
+<ol>
+<li>Go to folder <code>src/schema/entities</code>;</li>
+<li>Create a new file with extension <em>.ts</em> Let see for example already creating <code>Stutent.ts</code>;</li>
+</ol>
+<p><strong>Note:</strong> File must be named by next rules:</p>
+<ul>
+<li>no spaces or other special characters;</li>
+<li>start with a capital letter. </li>
+</ul>
+<p>3.Describe fields and relations of entity object:</p>
+<pre><code class="lang-js">    <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> {
+      name: <span class="hljs-string">&apos;Student&apos;</span>,
+      fields: {
+        firstName: {
+          indexed: <span class="hljs-literal">true</span>,
+        },
+        middleName: {},
+        lastName: {
+          identity: <span class="hljs-literal">true</span>,
+        },
+        uin: {
+          identity: <span class="hljs-literal">true</span>,
+        },
+        dateOfBirth: {
+          type: <span class="hljs-string">&apos;Date&apos;</span>,
+        },
+        profile: {
+          indexed: <span class="hljs-literal">true</span>,
+          relation: {
+            hasOne: <span class="hljs-string">&apos;StudentProfile#&apos;</span>,
+          },
+        },
+        group: {
+          indexed: <span class="hljs-literal">true</span>,
+          relation: {
+            belongsTo: <span class="hljs-string">&apos;StudentsGroup#&apos;</span>,
+            opposite: <span class="hljs-string">&apos;students&apos;</span>,
+          },
+        },
+      },
+    };
+</code></pre>
+<h1 id="fields-of-entity">Fields of Entity</h1>
+<p>Field have next atributes:</p>
+<ul>
+<li><strong>name</strong> - string, <strong>required</strong> attribute. Doesn&apos;t contain spaces or other special characters and start with a lowercase letter.
+It contain name of entity.</li>
+<li><strong>description</strong> - string, it contain description of entity;</li>
+<li><p><strong>fields</strong> - object, It contaian:</p>
+<pre><code class="lang-js">  fields: {
+    ...
+    &lt;name&gt;: {
+      type: <span class="hljs-string">&apos;Date&apos;</span>,
+      description: <span class="hljs-string">&apos;description put here&apos;</span>,
+      required: <span class="hljs-literal">true</span>,
+      indexed: <span class="hljs-literal">true</span>,
+      identity: <span class="hljs-literal">true</span>,
+      relation: <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Relation</span> <span class="hljs-attr">description...</span>&gt;</span>,
+    },
+    ...
+  }
+</span></code></pre>
+<p>1) &lt;<strong>name</strong>&gt; - string, <strong>required</strong> attribute. Doesn&apos;t contain spaces or other special characters and start with a lowercase letter.<br>2) <strong>description</strong> - string, any text;<br>3) <strong>type</strong> - string, default value is <em>string</em>. Types supported by project:</p>
+<pre><code>  string  
+  boolean
+  number
+  Date
+</code></pre><p>4) <strong>required</strong> - boolean, default value <em>false</em>;<br>5) <strong>indexed</strong> - boolean, default value <em>false</em>;<br>6) <strong>identity</strong> - boolean, default value <em>false</em>;<br>7) <strong>relation</strong> - object. Atribute which describes relation by object with another object of data model. (See <a href="more-about-relations.html">Relation</a>)</p>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="base-project-map.html" class="navigation navigation-prev " aria-label="Previous page: Base project map">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="more-about-relations.html" class="navigation navigation-next " aria-label="Next page: More about relations">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Creating schema","level":"1.2.2.3","depth":3,"next":{"title":"More about relations","level":"1.2.2.4","depth":3,"path":"development-issues/write-fisrt-oda-app/more-about-relations.md","ref":"development-issues/write-fisrt-oda-app/more-about-relations.md","articles":[]},"previous":{"title":"Base project map","level":"1.2.2.2","depth":3,"path":"development-issues/write-fisrt-oda-app/base-project-map.md","ref":"development-issues/write-fisrt-oda-app/base-project-map.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"development-issues/write-fisrt-oda-app/creating-schema.md","mtime":"2017-04-28T14:53:11.109Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-28T14:57:30.627Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
