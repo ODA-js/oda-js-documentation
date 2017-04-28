@@ -35,84 +35,92 @@ All descriptions you can find by link [Many-To-Many Associations](http://docs.se
 
 Consider examples of relations:  
 **1\)  1 : 1**  
-Contact relations with Phone.  
-File _Contact.ts_:
+Student relations with StudentProfile.  
+File _Student.ts_:
 
 ```js
-    {
-      'name': 'phone',
-      'description': 'relation with Phone',
-      'relation': {
-        'hasOne': 'Phone#contact',
-        'opposite': 'contact' // no required attribute. It is name of point from related entity.
+    ...
+    profile: {
+      indexed: true,
+      relation: {
+        hasOne: 'StudentProfile#',
       },
-    }
+    },
+    ...
 ```
 
-File _Phone.ts_:
+File _StudentProfile.ts_:
 
 ```js
-    {
-      'name': 'contact',
-      'indexed': true,
-      'description': 'relation with Contact',
-      'relation':{
-        'belongsTo': 'Contact#id',
+    ...
+    student: {
+      indexed: true,
+      relation: {
+        belongsTo: 'Student#',
+        opposite: 'profile',
       },
-    }
+    },
+    ...
 ```
 
 **2\)  1 : n**  
-Organization has many Campaigns. Campaign belongs to one Organization.  
-File _Organization.ts_:
+StudentsGroup has many Students. Student belongs to one StudentsGroup.  
+File _StudentsGroup.ts_:
 
-```
-    {
-      'name': 'campaigns',
-      'relation': {
-        'hasMany': 'Campaign#organization',
-        'opposite': 'organization',
+```js
+    ...
+    students: {
+      indexed: true,
+      relation: {
+        hasMany: 'Student#',
       },
     },
+    ...
 ```
 
-File _Campaign.ts_:
+File _Student.ts_:
 
-```
-    {
-      'name': 'organization',
-      'indexed': true,
-      'relation': {
-        'belongsTo': 'Organization#id',
-      }
+```js
+    ...
+    group: {
+      indexed: true,
+      relation: {
+        belongsTo: 'StudentsGroup#',
+        opposite: 'students',
+      },
     },
+    ...
 ```
 
 **3\)  m : n**  
-Organization relations with object Profile Type.  
-File _Organization.ts_:
+StudentsGroup relations with Subjects.  
+File _StudentsGroup.ts_:
 
-```
-    {
-      'name': 'profileTypes',
-      'relation': {
-        'belongsToMany': 'ProfileType#key',
-        'using': 'OrganizationProfile#organization',
-        'opposite': 'organizations',
+```js
+    ...
+    subjects: {
+      indexed: true,
+      relation: {
+        belongsToMany: 'Subject#',
+        using: 'StudentsGroupSubject#',
+        opposite: 'groups',
       },
     },
+    ...
 ```
 
-File _ProfileType.ts_:
+File _Subject.ts_:
 
-```
-    {
-      'name': 'organizations',
-      'relation': {
-        'belongsToMany': 'Organization#id',
-        'using': 'key@OrganizationProfile#profileType',
+```js
+    ...
+    groups: {
+      indexed: true,
+      relation: {
+        belongsToMany: 'StudentsGroup#',
+        using: 'StudentsGroupSubject#',
       },
     },
+    ...
 ```
 
 

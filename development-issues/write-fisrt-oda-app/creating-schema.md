@@ -92,7 +92,7 @@ It contain name of entity.
     4) **required** - boolean, default value _false_;
     4) **indexed** - boolean, default value _false_;
     5) **identity** - boolean, default value _false_;
-    6) **relation** - object. Atribute which describes relation by object with another object of data model. \(See [Relation](./relation.md)\)
+    6) **relation** - object. Atribute which describes relation by object with another object of data model. \(See [Relation](./more-about-relations.md)\)
   
 
 
