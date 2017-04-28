@@ -1,16 +1,26 @@
 # Relation
 
 
-olololo
+Example **relation** field.
+Next at text *Source* entity - it mean **Master** model
+*Target* entity - it mean **Slave** model
 
 ```js
     ...
-      relation: {
-        belongsToMany: 'StudentsGroup#',
-        using: 'StudentsGroupSubject#',
-      },  
+      profile: {
+        indexed: true,
+        relation: {
+          hasOne: 'StudentProfile#',
+        },
+      },
     ...
 ```
+It should contain flag **indexed: true**.
+Relation section can contain:
+
+  * **hasOne** or **belongsTo** or **hasMany** or **belongsToMany** - type of relation
+  * **oposite** - use only with **belongsTo** or **belongsToMany** type. It conain name of field at *Source* entity where ODA can find current(*Target*) entity
+
 
 Type of relations:
 
