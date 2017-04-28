@@ -2,7 +2,7 @@
 
 ODA using next technology
 
-[Apollodata](http://dev.apollodata.com/tools/graphql-server/)
+[ApolloData](http://dev.apollodata.com/tools/graphql-server/)
 
 [GraphQL](http://graphql.org/learn/)
 
