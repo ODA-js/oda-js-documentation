@@ -2,8 +2,9 @@
 
 
 Example **relation** field.
-Next at text *Source* entity - it mean **Master** model
-*Target* entity - it mean **Slave** model
+**Note**:
+* *Source* relation - it mean relation **Master** model
+* *Target* relation - it mean relation **Slave** model
 
 ```js
     ...
@@ -15,11 +16,12 @@ Next at text *Source* entity - it mean **Master** model
       },
     ...
 ```
-It should contain flag **indexed: true**.
+**Noote**: field with relation section should contain flag `indexed: true`.
+
 Relation section can contain:
 
-  * **hasOne** or **belongsTo** or **hasMany** or **belongsToMany** - type of relation
-  * **oposite** - use only with **belongsTo** or **belongsToMany** type. It conain name of field at *Source* entity where ODA can find current(*Target*) entity
+  * **hasOne** or **hasMany**(*Source* relation) or **belongsTo** or **belongsToMany**(*Target* relation) - type of relation
+  * **oposite** - use only with *Target* relation. It conain name of field in *Source* relation's entity where it relation can be find.
 
 
 Type of relations:
