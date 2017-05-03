@@ -1,13 +1,13 @@
 # Summary
 
-* [Overview](README.md)
-* [Getting start](development-issues/development-process.md)
-  * [Quick install guide](development-issues/quick-install-guide.md)
-  * [Write fisrt ODA app](development-issues/write-fisrt-oda-app.md)
-    * [Creating project](development-issues/write-fisrt-oda-app/creating-project.md)
-    * [Base project map](development-issues/write-fisrt-oda-app/base-project-map.md)
-    * [Creating schema](development-issues/write-fisrt-oda-app/creating-schema.md)
-    * [More about relations](development-issues/write-fisrt-oda-app/more-about-relations.md)
-    * [Start application!](development-issues/write-fisrt-oda-app/start-application.md)
-    * [Write simple web-client](development-issues/write-fisrt-oda-app/write-simple-web-client.md)
+* [Introduction](README.md)
+* [Development Environment](chapter1.md)
+  * [NodeJS installation](chapter1/32.md)
+  * [MongoDB installation](chapter1/install-mongodb.md)
+  * [ODA API installation](chapter1/install-oda-api.md)
+  * [Visual Studio Code \(VSCode\) installation](chapter1/install-visual-studio-code-vscode.md)
+* [Writing the first ODA application](writing-the-first-oda-application.md)
+  * [Project creation](writing-the-first-oda-application/create-the-project.md)
+  * [Base project map](writing-the-first-oda-application/base-project-map.md)
+  * [Schema creation](writing-the-first-oda-application/schema-creation.md)
 
