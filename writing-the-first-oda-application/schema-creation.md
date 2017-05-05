@@ -44,6 +44,11 @@ export default {
     };
 
 ```
+4. Save all changes in the file.
+5. Open terminal window with npm running and stop server. To do this push "Ctrl+C" on your keyboard.
+6. Need to compile project, by running comand: ` npm run compile`.
+7. Run server: `npm start`
+
 ### Entity fields
 The entity has the following fields:
  
@@ -65,4 +70,32 @@ The entity has the following fields:
 <ul>
 <li> `field_name`- field name,required. Type:string. The name must not contain spaces, special characters, and must begin with a capital letter</li>
 <li>'type' - field type. Types: string, boolean, number, date. By default type is 'string' </li>
-<li></li>
+<li>'description' - field description. Type: string.</li>
+<li>'required' - indicates this field is required or not. Type: boolean. The default value is set to false.
+<li>'indexed' - whether the field is indexable and whether it can be searched.Type: boolean. The default value is set to false.</li>
+<li>'identity' - indicates whether the field is an identifier. Type: boolean. The default value is set to false. </li>
+<li>'relation' - describes the relationship between an object and another data model object. More detail about relations [here](/writing-the-first-oda-application/relations.md)</li>
+When entity is described need to add it to 'generation'. To do his open `src/schema/entities/index.ts` and add described entity to index file. Need to add described entity to 'import' (1) and 'export'(2).
+
+
+```
+import User from './User';
+import Student from './Student'; //(1) Now import Student entity
+
+import StudentProfile from './StudentProfile';
+import StudentsGroup from './StudentsGroup';
+import Teacher from './Teacher';
+import Subject from './Subject';
+
+export default [
+  User,
+  Student, //(2) And export to "generation"
+  StudentsGroup,
+  StudentProfile,
+  Teacher,
+  Subject,
+];
+```
+
+
+
