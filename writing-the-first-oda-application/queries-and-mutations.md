@@ -29,4 +29,51 @@ mutation createStudent{
   }
 }
 ```
+### Queries
+'Queries' - list of all queries to your models. For example, create query 'getStudents':
+
+
+```
+query getStudents{
+  students(first:20) {
+    edges {
+      node {
+        id
+        firstName
+        lastName
+      }
+    }
+  }
+}
+
+```
+The result of this request is a list of 20 students
+
+### Using cURL for queries
+cURL is  a  tool  to  transfer data from or to a server, using one of the supported protocols (DICT,FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP,SFTP,SMTP, SMTPS, TELNET and TFTP).  The command is designed to work without user interaction.
+For using cURL for queries do this:
+1. Open new terminal window
+2. Paste the query using the following syntax (for example, take the query to get 20 students):<br> `curl -X POST \-H "Content-Type: application/json" \-d '{"query": "{ students(first:20) {edges {node {id firstName lastName}}}}"}'\http://localhost:3003/graphql`
+3. Push 'Enter' button and check the result of the query. For the example used, the result of the query will look like this:<br>![](/assets/56.png)
+### Using WEB tools for queries
+For using WEB tools for queries do this:
+1. Open your web browser and go to [http://localhost:3003](http://localhost:3003)
+2. Open web inspector, go to console tab and the query using the following syntax:
+
+
+```
+var xhr = new XMLHttpRequest();
+      xhr.responseType = 'json';
+      xhr.open('POST', '/graphql');
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.setRequestHeader('Accept', 'application/json');
+      xhr.onload = function () {
+        console.log('data returned:', xhr.response);
+      }
+      xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
+```
+
+
+```
+3. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
 
