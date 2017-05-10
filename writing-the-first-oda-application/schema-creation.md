@@ -75,12 +75,12 @@ The entity has the following fields:
 <li>'indexed' - whether the field is indexable and whether it can be searched.Type: boolean. The default value is set to false.</li>
 <li>'identity' - indicates whether the field is an identifier. Type: boolean. The default value is set to false. </li>
 <li>'relation' - describes the relationship between an object and another data model object. More detail about relations [here](/writing-the-first-oda-application/relations.md)</li>
-When entity is described need to add it to 'generation'. To do his open `src/schema/entities/index.ts` and add described entity to index file. Need to add described entity to 'import' (1) and 'export'(2).
+When entity is described need to add it to index file. To do his open `src/schema/entities/index.ts` and add described entity to index file. Need to add described entity to 'import' (1) and 'export'(2).
 
 
 ```
 import User from './User';
-import Student from './Student'; //(1) Now import Student entity
+import Student from './Student'; //(1) 
 
 import StudentProfile from './StudentProfile';
 import StudentsGroup from './StudentsGroup';
@@ -89,7 +89,7 @@ import Subject from './Subject';
 
 export default [
   User,
-  Student, //(2) And export to "generation"
+  Student, //(2)
   StudentsGroup,
   StudentProfile,
   Teacher,
