@@ -1,7 +1,8 @@
 ## MongoDB installation
 
 1. Check if MongoDB installed on your PC.<br>
-1) Open terminal window and run command:<br> `mongo --version`<br>
+a) Open terminal window;<br>
+b) Run command:<br> `mongo --version`<br>
 
 2. If you have MongoDB on your PC, then run MongoDB using command:<br>`sudo mongod     `
 
