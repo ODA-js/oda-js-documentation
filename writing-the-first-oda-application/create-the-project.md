@@ -1,9 +1,14 @@
 ## Create the project
-1. Generate your new project, using command:<br> `yo oda-api-simple`<br>You can use the default project name or specify your own.
-2. Go to project folder, using command:<br> `cd test_dir` <br> where instead of the "test_dir", use the name of your project.
-3. Run npm, using command:<br> `npm start`
-4. Open web browser, paste  [localhost:3003/graphiql](/ localhost:3003/graphiql) into address line.
-5. Check that everything is working. You should see Graphiql form (see the image below)    
-
+1. Open terminal window;<br>
+2. To generate a new project, run command:<br> `yo oda-api-simple`<br>
+3. You will be asked for a name for the project.<br>
+![](/assets/screen1547.png)<br>
+4. Insert name for your project, for example, **"oda-test"**, and push Enter button on your keyboard.
+5. Project folder will be generated, named **"api-oda-test"**, and  after that command `npm install` **will be performed automatically**.<br>
+![](/assets/image1551.png)
+6. Go to project folder, using command:<br> `cd api-oda-test`<br>
+7. Run npm, using command:<br> `npm start`<br>
+8. To check that everything is working, in your web browser go to [localhost:3003/graphiql](http://localhost:3003/graphiql).<br>
+You should see Graphiql form (see the image below).<br>    
 ![](/assets/oda1.png)
 
