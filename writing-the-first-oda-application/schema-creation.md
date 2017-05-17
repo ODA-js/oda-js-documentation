@@ -5,16 +5,14 @@ Data Model of your application describe in folder: `src/schema/entities`<br>
 2. **Mutations** - Customer Mutations is described in this folder.<br>
 3. **Packages** - folder with UML diagram generation structure.<br><br>
 ### Entity creation
-Before create entities your need to build Data Model. Each object of your Data Model is an entity.<br>
+Before create entities your need to build Data Model. **Each object of your Data Model is an entity.**<br>
 Entity describes fields of object and relations between object and another object of model.<br>
 1. Run Visual Studio Code.<br>
 2. Click on "Open Folder" button and in file manager window choose main folder on your project.<br>
 3. Go to folder `src/schema/entities.`.<br>
 In this folder you can create a new file with extention **".ts"**, where you can descibe entities.<br> 
 For example, let's look at the existing file **"Student.ts"**. The file describes the object 'Student' and its relations with Student Profile and Students Group.<br>
-**Note: The filename must not contain spaces, special characters, and must begin with a capital letter.**
-
-
+**Note: The filename must not contain spaces, special characters, and must begin with a capital letter.**<br>
 ```
 export default {
       name: 'Student',
@@ -49,10 +47,11 @@ export default {
     };
 
 ```
+<br>
 4. Save all changes in the file.
 5. Open terminal window with npm running and stop server. To do this push "Ctrl+C" on your keyboard.
 6. Need to compile project, by running comand: ` npm run compile`.
-7. Run server: `npm start`
+7. Run server with command:<br>`npm start`
 
 ### Entity fields
 The entity has the following fields:
