@@ -4,7 +4,7 @@
 3. You will be asked for a name for the project.<br>
 ![](/assets/screen1547.png)<br>
 4. Insert name for your project, for example, **"oda-test"**, and push Enter button on your keyboard.
-5. Project folder will be generated, named **"api-oda-test"**, and  after that command `npm install` **will be performed automatically**.<br><br>
+5. Project folder will be generated, named **"api-oda-test"**, and  after that command `npm install` **will be performed automatically**.<br>
 ![](/assets/image1551.png)<br>
 6. Go to project folder, using command:<br> `cd api-oda-test`<br>
 7. Run npm, using command:<br> `npm start`<br>
