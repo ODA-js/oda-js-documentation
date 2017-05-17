@@ -6,10 +6,12 @@ Data Model of your application describe in folder: `src/schema/entities`<br>
 3. **Packages** - folder with UML diagram generation structure.<br><br>
 ### Entity creation
 Before create entities your need to build Data Model. Each object of your Data Model is an entity.<br>
-Entity describes fields of object and relations between object and another object of model.
-1. Run Visual Studio Code
-2. Click on "Open Folder" button and in file manager window choose main folder on your project.
-3. Go to folder `src/schema/entities.` In this folder you can create a new file with extention _.ts_ where you can descibe entities. For example, let's look at the existing file _Student.ts_. The file describes the object 'Student' and its relations with Student Profile and Students Group.
+Entity describes fields of object and relations between object and another object of model.<br>
+1. Run Visual Studio Code.<br>
+2. Click on "Open Folder" button and in file manager window choose main folder on your project.<br>
+3. Go to folder `src/schema/entities.`.<br>
+In this folder you can create a new file with extention **".ts"**, where you can descibe entities.<br> 
+For example, let's look at the existing file **"Student.ts"**. The file describes the object 'Student' and its relations with Student Profile and Students Group.
 `Note:` The filename must not contain spaces, special characters, and must begin with a capital letter
 
 
