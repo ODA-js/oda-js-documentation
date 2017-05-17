@@ -10,8 +10,12 @@ d) If you see output **"The program 'mongo' is currently not installed. You can 
 2. Install MongoDB, using this [tutorial](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/). 
 
 3. Run MongoDB using command:<br>`sudo mongod &` <br>
-`Note:` If you get error message "shutting down with code 100", open your root folder and create required folder (`sudo mkdir data/db`).
-`Note:` For OSX, MongoDB should be running every time. If you have rebooted the system, you should run MongoDB again.
+**Note: If you get error message "shutting down with code 100":**<br>
+**a) Open terminal window;**<br> 
+**b) Go to root folder: `cd /`;**<br>
+**c) Create required folder: `sudo mkdir data/db`;**<br>
+**d) Run MongoDB again: `sudo mongod &`.**<br><br>
+**Note: For OSX, MongoDB should be running every time. If you have rebooted the system, you should run MongoDB again.**
 
 
 
