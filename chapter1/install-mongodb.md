@@ -2,7 +2,9 @@
 
 1. Check if MongoDB installed on your PC.<br>
 a) Open terminal window;<br>
-b) Run command:<br> `mongo --version`<br>
+b) Run command:<br> 
+`mongo --version`<br>
+c) If you see output that contains this string **"MongoDB shell version v3.4.4-rc0"** in terminal, this means that NodeJS with fresh enough version is installed in your system. You can skip steps 2 and 3 and go next to [installation of Visual Studio Code application](/chapter1/install-visual-studio-code-vscode.md).
 
 2. If you have MongoDB on your PC, then run MongoDB using command:<br>`sudo mongod     `
 
