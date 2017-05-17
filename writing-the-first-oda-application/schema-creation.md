@@ -54,9 +54,7 @@ export default {
 7. Run server with command:<br>`npm start`
 
 ### Entity fields
-The entity has the following fields:
- 
-
+The entity has the following fields:<br>
 ```
  fields: {
     ...
@@ -71,17 +69,17 @@ The entity has the following fields:
     ...
   }
 ```
-<ul>
-<li> `field_name`- field name,required. Type:string. The name must not contain spaces, special characters, and must begin with a small letter</li>
-<li>'type' - field type. Types: string, boolean, number, Date. By default type is 'string' </li>
-<li>'description' - field description. Type: string.</li>
-<li>'required' - indicates this field is required or not. Type: boolean. The default value is set to false.
-<li>'indexed' - whether the field is indexable and whether it can be searched.Type: boolean. The default value is set to false.</li>
-<li>'identity' - indicates whether the field is an identifier. Type: boolean. The default value is set to false. </li>
-<li>'relation' - describes the relationship between an object and another data model object. More detail about relations [here](/writing-the-first-oda-application/relations.md)</li>
-When entity is described need to add it to index file. To do his open `src/schema/entities/index.ts` and add described entity to index file. Need to add described entity to 'import' (1) and 'export'(2).
+<br>
+**field_name** - field name, required. Type:string. The name must not contain spaces, special characters, and must begin with a small letter.<br>
+**type** - field type. **Types: string, boolean, number, Date.** Default type is **string**.<br>
+**description** - field description. **Type: string**.<br>
+**required** - indicates this field is required or not. **Type: boolean.** The default value is set to **false**.<br>
+**indexed** - whether the field is indexable and whether it can be searched. **Type: boolean**. The default value is set to **false**.<br>
+**identity** - indicates whether the field is an identifier. Type: boolean. The default value is set to false.<br>
 
-
+**relation** - describes the relationship between an object and another data model object. [More detail about relations.](/writing-the-first-oda-application/relations.md)<br>
+When entity is described need to add it to index file.<br>
+To do this, open `src/schema/entities/index.ts` and add described entity to index file. Need to add described entity to 'import' (1) and 'export'(2).<br>
 ```
 import User from './User';
 import Student from './Student'; //(1) 
