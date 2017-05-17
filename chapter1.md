@@ -1,6 +1,6 @@
 # **Development Environment**
 
-For working with Oda system, on user’s PC should be installed:
+For working with Oda system, following packages and programs should be installed on your PC:
 
 * [Nodejs - version 7 or above](/chapter1/32.md)
 * [MongoDB](/chapter1/install-mongodb.md)
