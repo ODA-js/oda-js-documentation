@@ -69,7 +69,7 @@ The entity has the following fields:
 ```
 <ul>
 <li> `field_name`- field name,required. Type:string. The name must not contain spaces, special characters, and must begin with a small letter</li>
-<li>'type' - field type. Types: string, boolean, number, date. By default type is 'string' </li>
+<li>'type' - field type. Types: string, boolean, number, Date. By default type is 'string' </li>
 <li>'description' - field description. Type: string.</li>
 <li>'required' - indicates this field is required or not. Type: boolean. The default value is set to false.
 <li>'indexed' - whether the field is indexable and whether it can be searched.Type: boolean. The default value is set to false.</li>
