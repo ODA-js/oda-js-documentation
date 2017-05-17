@@ -1,4 +1,4 @@
-## Queries and Mutation
+## Queries and Mutations
 
 1. Open your browser and go by link: [Localhost:3003/graphiq](/Localhost:3003/graphiq)
 2. GraphiQL editor will be opened. You can create graphql-queries using this editor. You can read more about GraphQL [here](http://graphql.org/learn/)
