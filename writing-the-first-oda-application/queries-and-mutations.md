@@ -9,10 +9,10 @@ Here's an example of how GraphiQL editor window will look like with added querie
 4. Click Run button (the round one).<br> 
 **Note: If there are multiple queries, you'll also need to choose the one you want to run from the list that appears after you click on Run button**.<br>
 5. The result of the query will be displayed in the right block.<br>
-6. Click 'Docs' button if you want to see the documentation about mutations and queries.<br>
+**Note: You can click on "Docs" button if you want to see full documentation regarding to mutations and queries**<br>
 
 ### Mutations
-'Mutation' - list of all actions, that you can do with your models (create, delete, update, assign, reassign).<br>
+**"Mutation"** - list of all actions, that you can do with your models (create, delete, update, assign, reassign).<br>
 For example: let's add add mutation **"createStudent"**:
 
 
@@ -34,7 +34,7 @@ mutation createStudent{
 }
 ```
 ### Queries
-'Queries' - list of all queries to your models. For example, create query 'getStudents':<br>
+**"Queries"** - list of all queries to your models. For example, create query 'getStudents':<br>
 
 
 ```
