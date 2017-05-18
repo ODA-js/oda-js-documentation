@@ -1,12 +1,15 @@
 ## Schema creation
 Data Model of your application describe in folder: `src/schema/entities`<br>
 **"/schema"** folder structure:<br>
+
 1. **Entities** - data structure is described in this folder.<br>
 2. **Mutations** - Customer Mutations is described in this folder.<br>
-3. **Packages** - folder with UML diagram generation structure.<br><br>
+3. **Packages** - folder with UML diagram generation structure.
+
 ### Entity creation
 Before create entities your need to build Data Model. **Each object of your Data Model is an entity.**<br>
 Entity describes fields of object and relations between object and another object of model.<br>
+
 1. Run Visual Studio Code.<br>
 2. Click on "Open Folder" button and in file manager window choose main folder on your project.<br>
 3. Go to folder `src/schema/entities.`.<br>
