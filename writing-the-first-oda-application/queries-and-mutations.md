@@ -87,4 +87,4 @@ var xhr = new XMLHttpRequest();
 * If there's no students registered in system, the result of the query will look like this:<br>
 ![](/assets/img1246.png)<br>
 * If there are any students registered in system, the result of the query will look like this:<br>
-For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
+![](/assets/8989.png)
