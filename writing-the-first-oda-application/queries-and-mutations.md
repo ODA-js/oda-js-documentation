@@ -60,15 +60,16 @@ For using cURL for queries, do this:<br>
 `curl -X POST -H "Content-Type: application/json" -d '{"query": "{ students(first:20) {edges {node {id firstName lastName}}}}"}' http://localhost:3003/graphql`
 3. Push 'Enter' button and check the result of the query. 
 * If there's no students registered in system, the result of the query will look like this:<br>
-
+![](/assets/img1245.png)<br>
 * If there are any students registered in system, the result of the query will look like this:<br>
-![](/assets/56.png)
+![](/assets/56.png)<br><br>
+
 ### Using WEB tools for queries
-For using WEB tools for queries do this:
-1. Open your web browser and go to [http://localhost:3003](http://localhost:3003)
-2. Open web inspector, go to console tab and the query using the following syntax:
+For using WEB tools for queries do this:<br>
 
-
+1. Open your web browser and go to [http://localhost:3003](http://localhost:3003);
+2. Open web inspector.
+3. Go to console tab and add the query with following syntax to console:<br>
 ```
 var xhr = new XMLHttpRequest();
       xhr.responseType = 'json';
@@ -79,9 +80,6 @@ var xhr = new XMLHttpRequest();
         console.log('data returned:', xhr.response);
       }
       xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
-```
-
-
-```
-3. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
+```<br>
+4. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
 
