@@ -29,8 +29,8 @@ Relation section can contain:
 **idFieldName** - can be empty or contain name of the key that will be used for bind. **By default, idFieldName   is "id"**.<br><br>
 ### Type of relations:
 ODA system use following types of relations:<br>
-* "one-to-one" (1:1). [Full description of this relation can be found here](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations).<br>
-* "one-to-many" (1:n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
-<li>"many-to-many" (m : n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
+* "one-to-one" (1:1). [Full description of this relation can be found here](http://docs.sequelizejs.com/manual/tutorial/associations.html#one-to-one-associations).<br>
+* "one-to-many" (1:n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/manual/tutorial/associations.html#one-to-many-associations)
+<li>"many-to-many" (m : n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/manual/tutorial/associations.html#scopes)
 
 
