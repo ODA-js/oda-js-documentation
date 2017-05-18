@@ -83,4 +83,8 @@ var xhr = new XMLHttpRequest();
       xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
 ```<br>
 
-4. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
+4. Push 'Enter' button and check the result of the query in console output.<br> 
+* If there's no students registered in system, the result of the query will look like this:<br>
+![](/assets/img1246.png)<br>
+* If there are any students registered in system, the result of the query will look like this:<br>
+For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
