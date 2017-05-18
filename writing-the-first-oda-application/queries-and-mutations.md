@@ -6,7 +6,8 @@
 Here's an example of how GraphiQL editor window will look like with added queries and server output.<br>
 ![](/assets/356.png)<br>
 3. Insert graphql-queries in left block of editor (you can use test mutations and queries from **"Mutations"** and **"Queries"** sections).<br>
-4. Click "Run query" button (the round one) and choose one of available queries.<br>
+4. Click Run button (the round one).<br> 
+**Note: If there are multiple queries, you'll also need to choose the one you want to run from the list that appears after you click on Run button**.<br>
 5. The result of the query will be displayed in the right block.<br>
 6. Click 'Docs' button if you want to see the documentation about mutations and queries.<br>
 
