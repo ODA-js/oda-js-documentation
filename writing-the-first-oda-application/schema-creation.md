@@ -13,10 +13,11 @@ Entity describes fields of object and relations between object and another objec
 
 1. Run Visual Studio Code.<br>
 2. Click on "Open Folder" button and in file manager window choose main folder on your project.<br>
-3. Go to folder `src/schema/entities.`.<br>
-In this folder you can create a new file with extention **".ts"**, where you can descibe entities.<br> 
+3. Go to folder **"src/schema/entities"**.<br>
+In this folder you can create a new file with extention **".ts"**, where you can descibe entities.<br><br>
 For example, let's look at the existing file **"Student.ts"**. The file describes the object 'Student' and its relations with Student Profile and Students Group.<br>
 **Note: The filename must not contain spaces, special characters, and must begin with a capital letter.**<br>
+
 ```
 export default {
       name: 'Student',
@@ -49,13 +50,13 @@ export default {
         },
       },
     };
-
 ```
 <br>
+
 4. Save all changes in the file.
 5. Open terminal window with npm running and stop server. To do this push "Ctrl+C" on your keyboard.
 6. Need to compile project, by running comand: ` npm run compile`.
-7. Run server with command:<br>`npm start`
+7. Run server with command:<br>`npm start`<br>
 
 ### Entity fields
 The entity has the following fields:<br>
