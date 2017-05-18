@@ -70,9 +70,8 @@ For using WEB tools for queries do this:<br>
 1. Open your web browser and go to [http://localhost:3003](http://localhost:3003);
 2. Open web inspector.
 3. Go to console tab and add the query with following syntax to console:<br>
-
 ```
-var xhr = new XMLHttpRequest();
+  var xhr = new XMLHttpRequest();
       xhr.responseType = 'json';
       xhr.open('POST', '/graphql');
       xhr.setRequestHeader('Content-Type', 'application/json');
@@ -81,10 +80,10 @@ var xhr = new XMLHttpRequest();
         console.log('data returned:', xhr.response);
       }
       xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
-```<br>
+```
 
-4. Push 'Enter' button and check the result of the query in console output.<br> 
-* If there's no students registered in system, the result of the query will look like this:<br>
+4. Push 'Enter' button and check the result of the query in console output. 
+  * If there's no students registered in system, the result of the query will look like this:<br>
 ![](/assets/img1246.png)<br>
-* If there are any students registered in system, the result of the query will look like this:<br>
+  * If there are any students registered in system, the result of the query will look like this:<br>
 ![](/assets/8989.png)
