@@ -84,4 +84,3 @@ var xhr = new XMLHttpRequest();
 ```<br>
 
 4. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
-
