@@ -21,8 +21,8 @@ Let' s look at example of relation field.
 **Note: field with relation section should contain flag "indexed: true".**<br>
 
 Relation section can contain:
-* *relation type* - it can be "source" (**hasOne** or **hasMany**)  or "target" relation (**belongsTo** or **belongsToMany**)</li>
-* **oposite** - use only with Target relation. It contains field name in Source relation, where this relation can be found.</li>
+* **relation type** - it can be "source" (**hasOne** or **hasMany**)  or "target" relation (**belongsTo** or **belongsToMany**);<br>
+* **oposite** - to be used only with Target relation. It contains field name in Source relation, where this relation can be found.<br>
 <li>using - use only for many-to-many relations.It contains:  `using: 'NameTableBundle#idFieldName`<ol>`NameTableBundle` - name of bundle table.This entity can be created manually or ODA can create it automatically.<br>`idFieldName` - can be empty or contain name of the key that will be used for bind. By default, 'idFieldName`   is 'id'.</ol></li>
 ### Type of relations:
 ODA system use following type of relations:
