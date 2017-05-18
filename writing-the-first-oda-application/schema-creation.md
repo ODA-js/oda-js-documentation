@@ -4,7 +4,7 @@ Data Model of your application describe in folder: `src/schema/entities`<br>
 
 1. **Entities** - data structure is described in this folder.<br>
 2. **Mutations** - Customer Mutations is described in this folder.<br>
-3. **Packages** - folder with UML diagram generation structure.<br>
+3. **Packages** - folder with UML diagram generation structure.<br><br>
 
 
 ### Entity creation
