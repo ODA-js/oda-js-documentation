@@ -2,22 +2,20 @@
 
 Let' s look at example of relation field. 
 
-`Note:` **Source** relation - it's mean source relation model. **Target** relation - it's mean slave relation model.
-
- 
+`Note:` **Source** relation - it's mean source relation model. **Target** relation - it's mean slave relation model.<br>
 
 ```
- ...
+  ...
       profile: {
         indexed: true,
         relation: {
           hasOne: 'StudentProfile#',
         },
       },
-    ...
+  ...
 
-```
-`Note:` field with relation section should contain flag `indexed: true.`
+```<br>
+**Note: field with relation section should contain flag indexed: true.**<br>
 
 Relation section can contain:
 <li> relation type - it can be Source relation (**hasOne or hasMany**)  or Target relation (**belongsTo** or **belongsToMany**)</li>
