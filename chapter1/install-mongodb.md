@@ -16,7 +16,13 @@ d) If you see output **"The program 'mongo' is currently not installed. You can 
     * **Create required folder: `sudo mkdir data/db`;**<br>
     * **Run MongoDB again: `sudo mongod`.**<br><br>
     
-**Note: For OSX, MongoDB should be running every time. If you have rebooted the system, you should run MongoDB again.**
+**Note: For OSX, MongoDB should be running every time. If you have rebooted the system, you should run MongoDB again.**<br>
+
+**Note: We recommend to launch MongoDB in a new terminal window. This will make things easier, because MongoDB will not encumber main window with outputs and logs.**
+
+
+
+
 
 
 
