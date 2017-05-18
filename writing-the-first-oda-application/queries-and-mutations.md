@@ -34,7 +34,8 @@ mutation createStudent{
 }
 ```
 ### Queries
-**"Queries"** - list of all queries to your models. For example, create query 'getStudents':<br>
+**"Queries"** - list of all queries to your models.<br> 
+For example, let's create query 'getStudents':<br>
 
 
 ```
@@ -55,7 +56,8 @@ The result of this request will be a list of first 20 students, registered in sy
 
 ### Using cURL for queries
 cURL is  a  tool  to  transfer data from or to a server, using one of the supported protocols (DICT,FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP,SFTP,SMTP, SMTPS, TELNET and TFTP).<br>
-The command is designed to work without user interaction.<br>
+The command is designed to work without user interaction.<br><br>
+
 For using cURL for queries, do this:<br>
 1. Open new terminal window;<br>
 2. Paste the query using the following syntax (for example, take the query to get 20 students from the "Query" section above):<br> 
