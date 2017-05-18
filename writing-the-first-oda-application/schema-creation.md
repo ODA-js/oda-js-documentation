@@ -16,8 +16,7 @@ Entity describes fields of object and relations between object and another objec
 3. Go to folder **"src/schema/entities"**.<br>
 In this folder you can create a new file with extention **".ts"**, where you can descibe entities.<br><br>
 For example, let's look at the existing file **"Student.ts"**. The file describes the object 'Student' and its relations with Student Profile and Students Group.<br>
-**Note: The filename must not contain spaces, special characters, and must begin with a capital letter.**
-
+**Note: The filename must not contain spaces, special characters, and must begin with a capital letter.**<br>
 ```
     export default {
       name: 'Student',
@@ -51,6 +50,7 @@ For example, let's look at the existing file **"Student.ts"**. The file describe
       },
     };
 ```
+<br>
 4. Save all changes in the file.
 5. Open terminal window with npm running and stop server. To do this push "Ctrl+C" on your keyboard.
 6. Compile project by running command: ` npm run compile`.
