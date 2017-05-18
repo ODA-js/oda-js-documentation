@@ -52,7 +52,6 @@ export default {
     };
 ```
 <br>
-
 4. Save all changes in the file.
 5. Open terminal window with npm running and stop server. To do this push "Ctrl+C" on your keyboard.
 6. Need to compile project, by running comand: ` npm run compile`.
