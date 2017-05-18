@@ -52,10 +52,12 @@ query getStudents{
 The result of this request will be a list of first 20 students, registered in system.<br>
 
 ### Using cURL for queries
-cURL is  a  tool  to  transfer data from or to a server, using one of the supported protocols (DICT,FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP,SFTP,SMTP, SMTPS, TELNET and TFTP).  The command is designed to work without user interaction.
-For using cURL for queries do this:
-1. Open new terminal window
-2. Paste the query using the following syntax (for example, take the query to get 20 students):<br> `curl -X POST \-H "Content-Type: application/json" \-d '{"query": "{ students(first:20) {edges {node {id firstName lastName}}}}"}'\http://localhost:3003/graphql`
+cURL is  a  tool  to  transfer data from or to a server, using one of the supported protocols (DICT,FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP,SFTP,SMTP, SMTPS, TELNET and TFTP).<br>
+The command is designed to work without user interaction.<br>
+For using cURL for queries, do this:<br>
+1. Open new terminal window;<br>
+2. Paste the query using the following syntax (for example, take the query to get 20 students from the "Query" section above):<br> 
+`curl -X POST -H "Content-Type: application/json" -d '{"query": "{ students(first:20) {edges {node {id firstName lastName}}}}"}' http://localhost:3003/graphql`
 3. Push 'Enter' button and check the result of the query. For the example used, the result of the query will look like this:<br>![](/assets/56.png)
 ### Using WEB tools for queries
 For using WEB tools for queries do this:
