@@ -58,7 +58,10 @@ For using cURL for queries, do this:<br>
 1. Open new terminal window;<br>
 2. Paste the query using the following syntax (for example, take the query to get 20 students from the "Query" section above):<br> 
 `curl -X POST -H "Content-Type: application/json" -d '{"query": "{ students(first:20) {edges {node {id firstName lastName}}}}"}' http://localhost:3003/graphql`
-3. Push 'Enter' button and check the result of the query. For the example used, the result of the query will look like this:<br>![](/assets/56.png)
+3. Push 'Enter' button and check the result of the query. 
+* If there's no students registered in system, the result of the query will look like this:<br>
+
+* If there are any students registered in system, the result of the query will look like this:<br>![](/assets/56.png)
 ### Using WEB tools for queries
 For using WEB tools for queries do this:
 1. Open your web browser and go to [http://localhost:3003](http://localhost:3003)
