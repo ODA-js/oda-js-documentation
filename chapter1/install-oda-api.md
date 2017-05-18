@@ -2,11 +2,13 @@
 
 1. Install tools for working with Typescript (variation of javascript, needed for working with typescript files).<br>
 a) Open terminal window;<br>
-b) Run command:<br> `npm install -g typescript`
+b) Run command:<br> `npm install -g typescript`<br>
 
 2. Using npm, install Yeoman ([more details here](http://yeoman.io/)) and generator-oda-api-simple plugin.<br>
 a) Open terminal window;
-b) Run commands:<br>`sudo npm install -g yo`<br>`sudo npm install -g generator-oda-api-simple`
+b) Run commands:<br>`sudo npm install -g yo`<br>`sudo npm install -g generator-oda-api-simple`<br><br>
+
+**Note: It is not necessary to actually open new terminal window for each command, these commands can be performed in one terminal window.**
 
 
 

@@ -9,5 +9,9 @@
 6. Go to project folder, using command:<br> `cd api-oda-test`<br>
 7. Run npm, using command:<br> `npm start`<br>
 8. To check that everything is working, in your web browser go to [localhost:3003/graphiql](http://localhost:3003/graphiql). You should see Graphiql form (see the image below).<br>    
-![](/assets/oda1.png)
+![](/assets/oda1.png)<br> <br> 
+
+**Note: Don't forget to also launch MongoDB:**<br>
+    * **Open NEW terminal window;**<br>
+    * **Run MongoDB: `sudo mongod`.**
 
