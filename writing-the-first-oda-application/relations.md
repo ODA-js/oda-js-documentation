@@ -2,7 +2,8 @@
 
 Let' s look at example of relation field. 
 
-`Note:` **Source** relation - it's mean source relation model. **Target** relation - it's mean slave relation model.<br>
+**Note: Source relation - it's mean source relation model. Target relation - it's mean slave relation model.**<br>
+
 
 ```
   ...
@@ -14,7 +15,9 @@ Let' s look at example of relation field.
       },
   ...
 
-```<br>
+```
+<br>
+
 **Note: field with relation section should contain flag indexed: true.**<br>
 
 Relation section can contain:
