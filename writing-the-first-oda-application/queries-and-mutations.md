@@ -1,10 +1,11 @@
 ## Queries and Mutations
 
-1. Open your browser and go by link: [localhost:3003/graphiq](http://localhost:3003/graphiq)
-2. GraphiQL editor will be opened. You can create graphql-queries using this editor. You can read more about GraphQL [here](http://graphql.org/learn/)
-![](/assets/356.png)
-3. Put graphql-queries in left block of editor.
-4. Click 'Run query' button and choose one of available queris.
+1. Open your browser and go by link: [localhost:3003/graphiq](http://localhost:3003/graphiq)<br>
+2. GraphiQL editor will be opened. You can create graphql-queries using this editor. You can read more about GraphQL [here](http://graphql.org/learn/)<br>
+Here's an example of how GraphiQL editor window will look like with added queries and server output.<br>
+![](/assets/356.png)<br>
+3. Insert graphql-queries in left block of editor (you can use test mutations and queries from **"Mutations"** and **"Queries"** sections).
+4. Click "Run query" button (the round one) and choose one of available queries.
 5. The result of the query will be displayed in the right block.
 6. Click 'Docs' button if you want to see the documentation about mutations and queries.
 
