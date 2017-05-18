@@ -2,31 +2,35 @@
 
 Let' s look at example of relation field. 
 
-`Note:` **Source** relation - it's mean source relation model. **Target** relation - it's mean slave relation model.
+**Note: Source relation - it's mean source relation model. Target relation - it's mean slave relation model.**<br>
 
- 
 
 ```
- ...
+  ...
       profile: {
         indexed: true,
         relation: {
           hasOne: 'StudentProfile#',
         },
       },
-    ...
+  ...
 
 ```
-`Note:` field with relation section should contain flag `indexed: true.`
+<br>
+
+**Note: field with relation section should contain flag "indexed: true".**<br>
 
 Relation section can contain:
-<li> relation type - it can be Source relation (**hasOne or hasMany**)  or Target relation (**belongsTo** or **belongsToMany**)</li>
-<li> oposite - use only with Target relation. It contains field name in Source relation, where this relation can be found.</li>
-<li>using - use only for many-to-many relations.It contains:  `using: 'NameTableBundle#idFieldName`<ol>`NameTableBundle` - name of bundle table.This entity can be created manually or ODA can create it automatically.<br>`idFieldName` - can be empty or contain name of the key that will be used for bind. By default, 'idFieldName`   is 'id'.</ol></li>
+* **relation type** - it can be "source" (**hasOne** or **hasMany**)  or "target" relation (**belongsTo** or **belongsToMany**);<br>
+* **oposite** - **to be used only with relation of "target" type**. It contains field name in "source" relation, where this relation can be found.<br>
+* **using** - use only for **many-to-many** relations.It contains:<br>
+`using: 'NameTableBundle#idFieldName`<br>
+**"NameTableBundle"** - name of bundle table.This entity can be created manually or ODA can create it automatically.<br>
+**idFieldName** - can be empty or contain name of the key that will be used for bind. **By default, idFieldName   is "id"**.<br><br>
 ### Type of relations:
-ODA system use following type of relations:
-<li>one-to-one(1:1). Full description about this relation you can find by the link [One-To-One Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#one-to-one-associations)
-<li>one-to-many(1:n). Full description about this relation you can find by the link [One-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#1m)
-<li>many-to-many(m : n). Full description about this relation you can find by the link [Many-To-Many Associations](http://docs.sequelizejs.com/en/v3/docs/associations/#nm)
+ODA system use following types of relations:<br>
+* "one-to-one" (1:1). [Full description of this relation can be found here](http://docs.sequelizejs.com/manual/tutorial/associations.html#one-to-one-associations).<br>
+* "one-to-many" (1:n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/manual/tutorial/associations.html#one-to-many-associations)
+<li>"many-to-many" (m : n). [Full description of this relation can be found here.](http://docs.sequelizejs.com/manual/tutorial/associations.html#scopes)
 
 
