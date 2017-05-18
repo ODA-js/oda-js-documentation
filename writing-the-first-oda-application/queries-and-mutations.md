@@ -13,7 +13,7 @@ Here's an example of how GraphiQL editor window will look like with added querie
 
 ### Mutations
 **"Mutation"** - list of all actions, that you can do with your models (create, delete, update, assign, reassign).<br>
-For example: let's add add mutation **"createStudent"**:
+For example: let's add mutation **"createStudent"**:
 
 
 ```
