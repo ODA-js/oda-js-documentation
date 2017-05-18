@@ -86,7 +86,7 @@ For using WEB tools for queries do this:<br>
       xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
 ```
 
-4. Push 'Enter' button and check the result of the query in console output. 
+4. Push 'Enter' button on your keyboard and check the result of the query in console output. 
   * If there's no students registered in system, the result of the query will look like this:<br>
 ![](/assets/img1246.png)<br>
   * If there are any students registered in system, the result of the query will look like this:<br>
