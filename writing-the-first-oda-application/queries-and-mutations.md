@@ -70,6 +70,7 @@ For using WEB tools for queries do this:<br>
 1. Open your web browser and go to [http://localhost:3003](http://localhost:3003);
 2. Open web inspector.
 3. Go to console tab and add the query with following syntax to console:<br>
+
 ```
 var xhr = new XMLHttpRequest();
       xhr.responseType = 'json';
@@ -81,5 +82,6 @@ var xhr = new XMLHttpRequest();
       }
       xhr.send(JSON.stringify({query: "{ students(first:20) {edges {node {id firstName lastName}}} }"}));
 ```<br>
+
 4. Push 'Enter' button and check the result of the query in console output. For the example used, the result of the query will look like this:<br> ![](/assets/8989.png)
 
