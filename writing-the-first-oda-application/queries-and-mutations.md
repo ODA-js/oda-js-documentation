@@ -1,6 +1,6 @@
 ## Queries and Mutations
 
-1. Open your browser and go to link: [localhost:3003/graphiq](http://localhost:3003/graphiq)<br>
+1. Open your browser and go to link: [localhost:3003/graphiql](http://localhost:3003/graphiql)<br>
 2. GraphiQL editor will be opened. You can create graphql-queries using this editor.<br>
 [Read more about GraphQL.](http://graphql.org/learn/)<br>
 Here's an example of how GraphiQL editor window will look like with added queries and server output.<br>
@@ -71,7 +71,7 @@ For using cURL for queries, do this:<br>
 ### Using WEB tools for queries
 For using WEB tools for queries do this:<br>
 
-1. Open your web browser and go to [http://localhost:3003](http://localhost:3003);
+1. Open your web browser and go to [localhost:3003/graphiql](http://localhost:3003/graphiql);
 2. Open web inspector.
 3. Go to console tab and add the query with following syntax to console:<br>
 ```
